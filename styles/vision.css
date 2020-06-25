@@ -41,12 +41,31 @@ a {
   padding-bottom: 36px;
 }
 
+#brainstorming{
+  width: 80vw;
+}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 36px;
   padding-bottom: 36px;
+}
+
+.competitors {
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+  width: 100%;
+}
+
+#desktop-proto {
+  width: 80vw;
+
+}
+
+#flows {
+  width: 80vw;
 }
 
 footer {
@@ -68,6 +87,14 @@ body {
 
 }
 
+#color-palette {
+  width: 80vw;
+}
+.hamburger-nav {
+  float: right;
+
+}
+
 header {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -75,6 +102,7 @@ header {
 }
 
 h1 {
+  color: #9B3030;
   font-family: freight-display-pro, serif;
   font-style: normal;
   font-weight: 700;
@@ -84,13 +112,16 @@ h1 {
 }
 
 h2 {
+  color: #9B3030;
   font-family: freight-display-pro, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.33em;
+  text-align: center;
 }
 
 h3 {
+  color: #431313;
   font-family: freight-display-pro, serif;
   font-style: normal;
   font-weight: 400;
@@ -99,6 +130,7 @@ h3 {
 }
 
 h4 {
+  color: #9B3030;
   font-family: freight-display-pro, serif;
   font-style: normal;
   font-weight: 700;
@@ -107,11 +139,23 @@ h4 {
 }
 
 h6 {
+  color: #431313;
   font-family: freight-display-pro, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
   text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  padding-right: 10px;
+  width: 100%;
+}
+
+#main-logo {
+  width:50vw;
 }
 
 p {
@@ -122,12 +166,31 @@ p {
   padding-left: 16px;
 }
 
+#preference-test {
+  width: 80vw;
+}
 .project-name {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 80vw;
+  padding-bottom: 36px;
 }
 
 .social-media {
   padding:10px;
+}
+#type-logo {
+  width: 80vw;
+}
+#ux-graph {
+  width: 90vw;
+}
+
+#ux-chart {
+  width: 70vw;
+}
+
+#wireframes {
+  width: 80vw;
 }
