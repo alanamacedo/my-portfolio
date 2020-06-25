@@ -4,6 +4,16 @@
 }
 
 a {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.33em;
+  text-decoration: none;
+}
+
+
+.button {
   background-color: #393939;
   border-radius: 8px;
   color: #ffff;
@@ -18,6 +28,7 @@ a {
   text-decoration: none;
   width: 300px;
 }
+
 .back-to-top {
   position: absolute;
   right: 32px;
@@ -60,7 +71,7 @@ a {
 }
 
 #desktop-proto {
-  width: 80vw;
+  width: 100vw;
 
 }
 
@@ -148,10 +159,7 @@ h6 {
 }
 
 .logos {
-  display: flex;
-  justify-content: center;
-  padding-right: 10px;
-  width: 100%;
+  width: 10vw;
 }
 
 #main-logo {
@@ -180,9 +188,38 @@ p {
 .social-media {
   padding:10px;
 }
+
+/* Top-nav is only for desktop page */
+.top-nav {
+  display: inline;
+  padding: 16px;
+  padding-top: 36px;
+  float: right;
+}
+
+.typeface {
+  list-style: none;
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: left;
+}
 #type-logo {
   width: 80vw;
 }
+
+ul {
+  list-style: none;
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: center;
+}
+
 #ux-graph {
   width: 90vw;
 }
