@@ -1,0 +1,95 @@
+:root {
+  --primary-color: rgba(255, 254, 252, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #393939;
+  color: white;
+  font-family: proxima nova;
+  font-weight: normal;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px 30px;
+  text-align: center;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.contact-form {
+  background-image: url(images/background.png);
+  margin: 0 auto;
+  padding: 50px 30px 10px 30px;
+  max-width: 600px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.contact-info {
+  grid-template-columns: 50% 50%;
+
+
+}
+
+form {
+  display: block;
+}
+
+h1 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.33em;
+  text-align: left;
+  padding-bottom: 16px;
+}
+ input {
+   width: 300px;
+   height: 30px;
+ }
+
+ textarea {
+   width: 300px;
+   height: 30px;
+   border-color: inherit;
+
+ }
+.name, .email, .message {
+  font-family: proxima nova;
+  font-weight: normal;
+  color: #431313;
+}
+
+
+
+p {
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  padding-bottom: 36px;
+}
