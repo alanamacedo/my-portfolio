@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/vision.css">
     <link rel="stylesheet" href="https://use.typekit.net/bub7yri.css">
+    <link rel="stylesheet" href="styles/vision.css">
+    <link rel="stylesheet" href="styles/menu.css">
   </head>
 
   <body>
-    <header>
-      <img src="images/my-logo.png" alt="images/my-logo.png">
-      <a href="" class="top-nav">Work</a>
-      <a href="" class="top-nav">About</a>
-      <a href="" class="top-nav">Resume</a>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <header class="showcase">
+      <div class="container showcase-inner">
+        <img src="images/my-logo.png" alt="images/my-logo.png">
+        <a href="" class="top-nav">Work</a>
+        <a href="" class="top-nav">About</a>
+        <a href="" class="top-nav">Resume</a>
+      </div>
     </header>
     <div class="main-container">
       <div class="box-1">
@@ -156,7 +174,7 @@
                   <p>After sketching out logos, I knew that the logo was to remain simple in order to convey a clean feel. I brought my favorite designs into Figma and began exploring the concepts until I reached my final design.
                   </p>
                 <div class="logos">
-                  <img src="images/logos-row.png" class="center" alt="">
+                  <img src="images/logos-row.png" class="center logos-row" alt="">
                 </div>
               </article>
               <article>
@@ -206,10 +224,10 @@
                   could view both their agenda and monthly calendar on their homepage. The Agenda went back to a vertical scroll which the tick would move in real-time. The side navigation bar is collapsible, and it is on every page throughout the
                   prototype. Instead of having an upload button, there is a create icon where a pop out occurs with the options to create a document, spreadsheet, presentation, vision board, upload, and folder.
                 </p>
-                <img src="images/desktop-1.png" alt="" class="center">
-                <img src="images/desktop-2.png" alt="" class="center">
-                <img src="images/mobile-1.png" alt="" class="center">
-                <img src="images/mobile-2.png" alt="" class="center">
+                <img src="images/desktop-1.png" alt="" class="center" id="desktop-1">
+                <img src="images/desktop-2.png" alt="" class="center" id="desktop-2">
+                <img src="images/mobile-1.png" alt="" class="center" id="mobile-proto">
+                <img src="images/mobile-2.png" alt="" class="center" id="mobile-proto">
             </article>
             <article>
               <h3>Conclusion + Takeaways</h3>

@@ -1,3 +1,40 @@
+/*
+:root {
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 3rem;
+}
+
+.showcase {
+  background-color: var(--primary-color);
+  color: #431313;
+  height: 100vh;
+  position: relative;
+}
+
+.showcase:before {
+  content: '';
+  background-color: #FFFEFC;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+*/
 .main-container {
   justify-content: center;
 
@@ -32,6 +69,11 @@ a {
 .back-to-top {
   position: absolute;
   right: 32px;
+}
+
+body {
+  background-color: #FFFEFC;
+
 }
 
 .box-1 {
@@ -69,7 +111,13 @@ a {
   padding-right: 5px;
   width: 100%;
 }
+#desktop-1 {
+  width: 90%;
+}
 
+#desktop-2 {
+  width: 90%
+}
 #desktop-proto {
   width: 100vw;
 
@@ -93,23 +141,18 @@ footer {
 
 }
 
-body {
-  background-color: #FFFEFC;
 
-}
 
 #color-palette {
   width: 80vw;
 }
 .hamburger-nav {
   float: right;
-
 }
 
 header {
   padding-top: 30px;
   padding-bottom: 30px;
-
 }
 
 h1 {
@@ -158,12 +201,15 @@ h6 {
   text-align: center;
 }
 
-.logos {
-  width: 10vw;
+.logos-row {
+  max-width: 90%
+}
+#main-logo {
+  width:40vw;
 }
 
-#main-logo {
-  width:50vw;
+#mobile-proto {
+  width: 90%;
 }
 
 p {
