@@ -1,0 +1,118 @@
+:root {
+  --primary-color: rgba(255, 254, 252, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.case-study {
+  font-family: proxima nova;
+  font-weight: bold;
+  color: #9B3030;
+  padding-bottom: 36px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+#desktop-proto {
+  width: 100vw;
+}
+
+footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+  width: 100%;
+
+}
+.social-media {
+  padding:10px;
+}
+h2 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.33em;
+  text-align: left;
+  padding-bottom: 16px;
+}
+
+h3 {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6em;
+  text-align: left;
+}
+
+h4 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h5 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: left;
+}
+
+h6 {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: left;
+}
+
+.intro {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+.main-container {
+  margin: 16px;
+}
+
+p {
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  letter-spacing: 1%;
+}
+
+ul {
+  padding-bottom: 16px;
+}

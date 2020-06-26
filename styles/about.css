@@ -1,0 +1,72 @@
+:root {
+  --primary-color: rgba(255, 254, 252, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.salvador {
+  max-width: 100%;
+  padding-bottom: 36px;
+}
+
+footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+  width: 100%;
+
+}
+.social-media {
+  padding:10px;
+}
+
+h4 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+
+h6 {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: left;
+}
+.main-container {
+  margin: 20px;
+}
+
+p {
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  letter-spacing: 1%;
+  line-height: 2.2em;
+}
+
+ul {
+  text-decoration: none;
+}
