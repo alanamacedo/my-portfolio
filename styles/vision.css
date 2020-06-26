@@ -1,0 +1,249 @@
+:root {
+  --primary-color: rgba(13, 11, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.33em;
+  text-decoration: none;
+}
+
+
+.button {
+  background-color: #393939;
+  border-radius: 8px;
+  color: #ffff;
+  display: block;
+  font-family: proxima nova;
+  font-size: 1.33em;
+  margin-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5em;
+  text-align: center;
+  text-decoration: none;
+  width: 300px;
+}
+
+.back-to-top {
+  position: absolute;
+  right: 32px;
+}
+
+body {
+  background-color: #FFFEFC;
+
+}
+
+.box-1 {
+  background-color: #FFFBF6;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.box-2 {
+  background-color: #F0F0F0;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.box-3 {
+  background-color: #F0F0F0;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+#brainstorming{
+  width: 80vw;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.competitors {
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+  width: 100%;
+}
+#desktop-1 {
+  width: 90%;
+}
+
+#desktop-2 {
+  width: 90%
+}
+#desktop-proto {
+  width: 100vw;
+
+}
+
+#flows {
+  width: 80vw;
+}
+
+footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+  width: 100%;
+
+}
+
+
+
+#color-palette {
+  width: 80vw;
+}
+.hamburger-nav {
+  float: right;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.83em;
+  text-align: center;
+
+}
+
+h2 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.33em;
+  text-align: center;
+}
+
+h3 {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.33em;
+  text-align: center;
+}
+
+h4 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h6 {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+}
+
+.logos-row {
+  max-width: 90%
+}
+#main-logo {
+  width:40vw;
+}
+
+#mobile-proto {
+  width: 90%;
+}
+
+p {
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+#preference-test {
+  width: 80vw;
+}
+.project-name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  padding-bottom: 36px;
+}
+
+.social-media {
+  padding:10px;
+}
+
+/* Top-nav is only for desktop page */
+.top-nav {
+  display: inline;
+  padding: 16px;
+  padding-top: 36px;
+  float: right;
+}
+
+.typeface {
+  list-style: none;
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: left;
+}
+#type-logo {
+  width: 80vw;
+}
+
+ul {
+  list-style: none;
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: center;
+}
+
+#ux-graph {
+  width: 90vw;
+}
+
+#ux-chart {
+  width: 70vw;
+}
+
+#wireframes {
+  width: 80vw;
+}
