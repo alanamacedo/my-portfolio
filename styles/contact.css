@@ -31,7 +31,7 @@ button {
 }
 
 .contact-form {
-  background-image: url(images/background.png);
+  background-image: url(../images/background.png);
   margin: 0 auto;
   padding: 50px 30px 10px 30px;
   max-width: 600px;
@@ -73,7 +73,7 @@ h1 {
 .name, .email, .message {
   font-family: proxima nova;
   font-weight: normal;
-  color: #431313;
+  color: #393939;
 }
 
 
@@ -87,7 +87,7 @@ p {
 }
 
 li {
-  text-decoration: none;
+  list-style: none;
 }
 
 ul {

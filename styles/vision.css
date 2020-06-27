@@ -19,6 +19,9 @@ a {
   text-decoration: none;
 }
 
+.main-container {
+
+}
 
 .button {
   background-color: #393939;
@@ -88,9 +91,9 @@ body {
 #desktop-2 {
   width: 90%
 }
+
 #desktop-proto {
   width: 100vw;
-
 }
 
 #flows {
