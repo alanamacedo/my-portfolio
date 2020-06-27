@@ -15,8 +15,11 @@
 }
 
 .salvador {
-  max-width: 100%;
+  width: 80vw;
   padding-bottom: 36px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
@@ -59,7 +62,13 @@ h6 {
   margin: 20px;
 }
 
-.nav-bar {
+.my-logo {
+  width: 80px;
+  height: 80px;
+}
+
+
+nav {
   position: fixed;
   background-color: #FFFEFC;
   width: 100%;
