@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
 }
+
 .case-study {
   font-family: proxima nova;
   font-weight: bold;
@@ -43,11 +44,8 @@ footer {
   justify-content: center;
   padding-right: 5px;
   width: 100%;
+}
 
-}
-.social-media {
-  padding:10px;
-}
 h2 {
   color: #9B3030;
   font-family: freight-display-pro, serif;
@@ -124,6 +122,12 @@ p {
   font-size: 1.33em;
   padding-bottom: 36px;
   letter-spacing: 1%;
+}
+
+.social-media {
+  padding:10px;
+  width: 80px;
+  height: 80px;
 }
 
 ul {

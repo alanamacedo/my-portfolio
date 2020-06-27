@@ -19,10 +19,6 @@ a {
   text-decoration: none;
 }
 
-.main-container {
-
-}
-
 .button {
   background-color: #393939;
   border-radius: 8px;
@@ -46,7 +42,6 @@ a {
 
 body {
   background-color: #FFFEFC;
-
 }
 
 .box-1 {
@@ -70,6 +65,7 @@ body {
 #brainstorming{
   width: 80vw;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -84,6 +80,7 @@ body {
   padding-right: 5px;
   width: 100%;
 }
+
 #desktop-1 {
   width: 90%;
 }
@@ -100,6 +97,7 @@ body {
   width: 80vw;
 }
 
+
 footer {
   display: block;
   margin-left: auto;
@@ -114,18 +112,12 @@ footer {
 
 }
 
-
-
 #color-palette {
   width: 80vw;
 }
+
 .hamburger-nav {
   float: right;
-}
-
-header {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 h1 {
@@ -135,7 +127,6 @@ h1 {
   font-weight: 700;
   font-size: 2.83em;
   text-align: center;
-
 }
 
 h2 {
@@ -177,6 +168,7 @@ h6 {
 .logos-row {
   max-width: 90%
 }
+
 #main-logo {
   width:40vw;
 }
@@ -208,6 +200,7 @@ p {
 #preference-test {
   width: 80vw;
 }
+
 .project-name {
   display: block;
   margin-left: auto;
@@ -219,6 +212,8 @@ p {
 
 .social-media {
   padding:10px;
+  width: 80px;
+  height: 80px;
 }
 
 /* Top-nav is only for desktop page */
@@ -238,6 +233,7 @@ p {
   padding-left: 16px;
   text-align: left;
 }
+
 #type-logo {
   width: 80vw;
 }

@@ -14,14 +14,6 @@
   text-align: center;
 }
 
-.salvador {
-  width: 80vw;
-  padding-bottom: 36px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 footer {
   display: block;
   margin-left: auto;
@@ -33,10 +25,6 @@ footer {
   justify-content: center;
   padding-right: 5px;
   width: 100%;
-
-}
-.social-media {
-  padding:10px;
 }
 
 h4 {
@@ -48,8 +36,6 @@ h4 {
   text-align: center;
 }
 
-
-
 h6 {
   color: #431313;
   font-family: freight-display-pro, serif;
@@ -58,6 +44,7 @@ h6 {
   font-size: 1em;
   text-align: left;
 }
+
 .main-container {
   margin: 20px;
 }
@@ -66,7 +53,6 @@ h6 {
   width: 80px;
   height: 80px;
 }
-
 
 nav {
   position: fixed;
@@ -81,6 +67,20 @@ p {
   padding-bottom: 36px;
   letter-spacing: 1%;
   line-height: 2.2em;
+}
+
+.salvador {
+  width: 80vw;
+  padding-bottom: 36px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media {
+  padding:10px;
+  width: 80px;
+  height: 80px;
 }
 
 ul {

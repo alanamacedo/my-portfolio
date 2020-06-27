@@ -38,16 +38,29 @@ button {
   border-radius: 4px;
   font-size: 16px;
   line-height: 2em;
+
 }
 
 .contact-info {
   grid-template-columns: 50% 50%;
-
-
 }
 
 form {
   display: block;
+}
+
+footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+  width: 100%;
 }
 
 h1 {
@@ -58,25 +71,53 @@ h1 {
   font-size: 2.33em;
   text-align: left;
   padding-bottom: 16px;
+  padding-top:70px;
 }
- input {
-   width: 300px;
-   height: 30px;
+
+h4 {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h6 {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  height: 30px;
  }
 
- textarea {
-   width: 300px;
-   height: 30px;
-   border-color: inherit;
+li {
+  list-style: none;
+}
 
- }
+.my-logo {
+  width: 80px;
+  height: 80px;
+}
+
+nav {
+  position: fixed;
+  background-color: #FFFEFC;
+  width: 100%;
+  top: 0;
+}
+
 .name, .email, .message {
   font-family: proxima nova;
   font-weight: normal;
   color: #393939;
 }
-
-
 
 p {
   font-family: proxima nova;
@@ -86,10 +127,19 @@ p {
   padding-left: 16px;
 }
 
-li {
-  list-style: none;
+.social-media {
+  padding:10px;
+  width: 80px;
+  height: 80px;
 }
+
+textarea {
+  width: 300px;
+  height: 30px;
+  border-color: inherit;
+ }
 
 ul {
   padding-bottom: 36px;
+  align-items: center;
 }
