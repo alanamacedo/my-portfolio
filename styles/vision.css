@@ -1,3 +1,4 @@
+/* hamburger nav */
 :root {
   --primary-color: rgba(255, 254, 252, 0.75);
   --overlay-color: rgba(24, 39, 51, 0.85);
@@ -10,15 +11,17 @@
   padding: 0;
 }
 
+
 a {
   color: #431313;
   font-family: freight-display-pro, serif;
+  font-size: 2.33em;
   font-style: normal;
   font-weight: 400;
-  font-size: 2.33em;
   text-decoration: none;
 }
 
+/* button style */
 .button {
   background-color: #393939;
   border-radius: 8px;
@@ -35,45 +38,52 @@ a {
   width: 300px;
 }
 
-.back-to-top {
-  position: absolute;
-  right: 32px;
-}
-
+/* Page background color */
 body {
   background-color: #FFFEFC;
 }
 
+/* Vision intro background color */
 .box-1 {
   background-color: #FFFBF6;
-  padding-top: 36px;
   padding-bottom: 36px;
+  padding-top: 36px;
 }
 
+/* Research and Discovery background */
 .box-2 {
   background-color: #F0F0F0;
-  padding-top: 36px;
   padding-bottom: 36px;
+  padding-top: 36px;
 }
 
+/* Branding and Identity background */
 .box-3 {
   background-color: #F0F0F0;
-  padding-top: 36px;
   padding-bottom: 36px;
+  padding-top: 36px;
 }
 
+/* mindmap and listmaking size */
 #brainstorming{
   width: 80vw;
 }
 
+/* centering images */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 36px;
   padding-bottom: 36px;
+  padding-top: 36px;
 }
 
+/* color palette size */
+#color-palette {
+  width: 80vw;
+}
+
+/* Competitor Icons */
 .competitors {
   display: flex;
   justify-content: center;
@@ -81,6 +91,7 @@ body {
   width: 100%;
 }
 
+/* desktop images */
 #desktop-1 {
   width: 90%;
 }
@@ -93,11 +104,12 @@ body {
   width: 100vw;
 }
 
+/* user flows */
 #flows {
   width: 80vw;
 }
 
-
+/* social media links */
 footer {
   display: block;
   margin-left: auto;
@@ -109,23 +121,15 @@ footer {
   justify-content: center;
   padding-right: 5px;
   width: 100%;
-
 }
 
-#color-palette {
-  width: 80vw;
-}
-
-.hamburger-nav {
-  float: right;
-}
-
+/* headers */
 h1 {
   color: #9B3030;
   font-family: freight-display-pro, serif;
+  font-size: 2.83em;
   font-style: normal;
   font-weight: 700;
-  font-size: 2.83em;
   text-align: center;
 }
 
@@ -133,38 +137,39 @@ h2 {
   color: #9B3030;
   font-family: freight-display-pro, serif;
   font-style: normal;
-  font-weight: 700;
   font-size: 2.33em;
+  font-weight: 700;
   text-align: center;
 }
 
 h3 {
   color: #431313;
   font-family: freight-display-pro, serif;
+  font-size: 2.33em;
   font-style: normal;
   font-weight: 400;
-  font-size: 2.33em;
   text-align: center;
 }
 
 h4 {
   color: #9B3030;
   font-family: freight-display-pro, serif;
+  font-size: 1.5em;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5em;
   text-align: center;
 }
 
 h6 {
   color: #431313;
   font-family: freight-display-pro, serif;
+  font-size: 1em;
   font-style: normal;
   font-weight: 400;
-  font-size: 1em;
   text-align: center;
 }
 
+/* vision logo images */
 .logos-row {
   max-width: 90%
 }
@@ -173,64 +178,56 @@ h6 {
   width:40vw;
 }
 
+/* mobile image */
 #mobile-proto {
   width: 90%;
 }
 
+/* navigation bar */
 .my-logo {
-  width: 80px;
   height: 80px;
+  width: 80px;
 }
 
 nav {
-  position: fixed;
   background-color: #FFFEFC;
-  width: 100%;
+  position: fixed;
   top: 0;
+  width: 100%;
 }
 
+/* paragraph text */
 p {
   font-family: proxima nova;
   font-size: 1.33em;
   padding-bottom: 36px;
-  padding-right: 16px;
   padding-left: 16px;
+  padding-right: 16px;
 }
-
+/* preference image */
 #preference-test {
   width: 80vw;
 }
 
+/* vision title logo */
 .project-name {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80vw;
   padding-bottom: 36px;
   padding-top: 100px;
+  width: 80vw;
 }
 
+/* social media icon padding */
 .social-media {
   padding:10px;
-  width: 80px;
   height: 80px;
+  width: 80px;
 }
 
-/* Top-nav is only for desktop page */
-.top-nav {
-  display: inline;
-  padding: 16px;
-  padding-top: 36px;
-  float: right;
-}
-
+/* vision typeface section */
 .typeface {
-  list-style: none;
-  font-family: proxima nova;
-  font-size: 1.33em;
-  padding-bottom: 36px;
-  padding-right: 16px;
-  padding-left: 16px;
   text-align: left;
 }
 
@@ -238,6 +235,7 @@ p {
   width: 80vw;
 }
 
+/* unordered list style */
 ul {
   list-style: none;
   font-family: proxima nova;
@@ -247,7 +245,7 @@ ul {
   padding-left: 16px;
   text-align: center;
 }
-
+/* chart and graph style */
 #ux-graph {
   width: 90vw;
 }
@@ -256,6 +254,7 @@ ul {
   width: 70vw;
 }
 
+/* wireframes style */
 #wireframes {
   width: 80vw;
 }

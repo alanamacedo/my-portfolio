@@ -1,3 +1,4 @@
+/* hamburger nav */
 :root {
   --primary-color: rgba(255, 254, 252, 0.75);
   --overlay-color: rgba(24, 39, 51, 0.85);
@@ -11,28 +12,31 @@
 }
 
 .case-study {
+  color: #9B3030;
   font-family: proxima nova;
   font-weight: bold;
-  color: #9B3030;
   padding-bottom: 36px;
 }
 
+/* aligns items to center */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 36px;
   padding-bottom: 36px;
+  padding-top: 36px;
 }
 
 .copyright {
   text-align: center;
 }
 
+/* desktop proto image */
 #desktop-proto {
   width: 100vw;
 }
 
+/* social media links */
 footer {
   display: block;
   margin-left: auto;
@@ -46,58 +50,60 @@ footer {
   width: 100%;
 }
 
+/* headers */
 h2 {
   color: #9B3030;
   font-family: freight-display-pro, serif;
+  font-size: 2.33em;
   font-style: normal;
   font-weight: 700;
-  font-size: 2.33em;
-  text-align: left;
   padding-bottom: 16px;
   padding-top: 70px;
+  text-align: left;
 }
 
 h3 {
   color: #431313;
   font-family: freight-display-pro, serif;
+  font-size: 1.6em;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.6em;
   text-align: left;
 }
 
 h4 {
   color: #9B3030;
   font-family: freight-display-pro, serif;
+  font-size: 1.5em;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5em;
   text-align: center;
 }
 
 h5 {
   color: #9B3030;
   font-family: freight-display-pro, serif;
-  font-weight: bold;
   font-size: 1.6em;
+  font-weight: bold;
   text-align: left;
 }
 
 h6 {
   color: #431313;
   font-family: freight-display-pro, serif;
+  font-size: 1em;
   font-style: normal;
   font-weight: 400;
-  font-size: 1em;
   text-align: left;
 }
 
+/* styles intro text */
 .intro {
   color: #431313;
   font-family: freight-display-pro, serif;
+  font-size: 1.3em;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3em;
   text-align: left;
 }
 
@@ -105,25 +111,28 @@ h6 {
   margin: 16px;
 }
 
+/* navigation bar */
 .my-logo {
-  width: 80px;
   height: 80px;
+  width: 80px;
 }
 
 nav {
-  position: fixed;
   background-color: #FFFEFC;
-  width: 100%;
+  position: fixed;
   top: 0;
+  width: 100%;
 }
 
+/* Paragraph text */
 p {
   font-family: proxima nova;
   font-size: 1.33em;
-  padding-bottom: 36px;
   letter-spacing: 1%;
+  padding-bottom: 36px;
 }
 
+/* social media icon padding */
 .social-media {
   padding:10px;
   width: 80px;
