@@ -152,6 +152,7 @@ h2 {
   font-weight: 700;
 }
 
+
 h3 {
   color: #431313;
   font-size: 2.33em;
@@ -255,6 +256,7 @@ nav {
 p {
   font-family: proxima nova;
   font-size: 1.33em;
+  line-height: 1.6em;
   padding-bottom: 36px;
   padding-left: 16px;
   padding-right: 16px;
@@ -279,6 +281,10 @@ p {
   width: 80vw;
 }
 
+section {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
 /* social media icon padding */
 .social-media {
   padding:10px;
@@ -303,10 +309,17 @@ ul {
   list-style: none;
   font-family: proxima nova;
   font-size: 1.33em;
+  line-height: 1.6em;
   padding-bottom: 36px;
   padding-right: 16px;
   padding-left: 16px;
   text-align: center;
+}
+
+ul p {
+   font-size: inherit;
+   text-align: left;
+   line-height: 2em;
 }
 
 /* homepage view case study button alignment */
