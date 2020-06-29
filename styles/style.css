@@ -11,14 +11,51 @@
   padding: 0;
 }
 
-.case-study {
-  color: #9B3030;
-  font-family: proxima nova;
-  font-weight: bold;
-  padding-bottom: 36px;
+
+a {
+  color: #431313;
+  font-family: freight-display-pro, serif;
+  font-size: 2.33em;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
 }
 
-/* aligns items to center */
+/* button style */
+button, .button {
+  background-color: #393939;
+  border-radius: 8px;
+  color: #ffff;
+  display: block;
+  font-family: proxima nova;
+  font-size: 1.33em;
+  margin-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5em;
+  text-align: center;
+  text-decoration: none;
+  width: 300px;
+}
+
+button {
+  cursor: pointer;
+  position: relative;
+}
+
+/* Page background color */
+body {
+  background-color: #FFFEFC;
+}
+
+/* Research and Discovery, Branding and Idenity backgrounds */
+.box-2, .box-3 {
+  background-color: #F0F0F0;
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+
+/* centering images */
 .center {
   display: block;
   margin-left: auto;
@@ -27,13 +64,52 @@
   padding-top: 36px;
 }
 
+/* Competitor Icons */
+.competitors, .footer-icons{
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+  width: 100%;
+}
+
+/* Contact form */
+.contact-section {
+  padding-top: 36px;
+}
+.contact {
+  padding-left: 20px;
+  text-align: left;
+}
+.contact-form {
+  background-image: url(../images/background.png);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 2em;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 50px 30px 10px 30px;
+}
+
+.contact-info {
+  grid-template-columns: 50% 50%;
+}
+
 .copyright {
   text-align: center;
 }
 
-/* desktop proto image */
+/* desktop images */
+#desktop {
+  width: 90%;
+}
+
 #desktop-proto {
   width: 100vw;
+}
+
+/* mindmap, listmaking, color palette, sketches, flows, preference tests, type logo, wireframes*/
+#eighty-vw{
+  width: 80vw;
 }
 
 /* social media links */
@@ -43,46 +119,53 @@ footer {
   margin-right: auto;
 }
 
-.footer-icons {
-  display: flex;
-  justify-content: center;
-  padding-right: 5px;
-  width: 100%;
+form {
+  display: block;
+}
+
+/* hi, i'm alana on index.html */
+.hello {
+  padding-bottom: 16px;
+  padding-top: 100px;
+  text-align: left;
+  padding-left: 16px;
 }
 
 /* headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: freight-display-pro, serif;
+  font-style: normal;
+  padding-bottom: 36px;
+  padding-top: 36px;
+  text-align: center;
+}
+
+h1 {
+  color: #9B3030;
+  font-size: 2.83em;
+  font-weight: 700;
+}
+
 h2 {
   color: #9B3030;
-  font-family: freight-display-pro, serif;
   font-size: 2.33em;
-  font-style: normal;
   font-weight: 700;
-  padding-bottom: 16px;
-  padding-top: 70px;
-  text-align: left;
 }
 
 h3 {
   color: #431313;
-  font-family: freight-display-pro, serif;
-  font-size: 1.6em;
-  font-style: normal;
+  font-size: 2.33em;
   font-weight: 400;
-  text-align: left;
 }
 
 h4 {
   color: #9B3030;
-  font-family: freight-display-pro, serif;
   font-size: 1.5em;
-  font-style: normal;
   font-weight: 700;
-  text-align: center;
 }
 
 h5 {
   color: #9B3030;
-  font-family: freight-display-pro, serif;
   font-size: 1.6em;
   font-weight: bold;
   text-align: left;
@@ -90,11 +173,8 @@ h5 {
 
 h6 {
   color: #431313;
-  font-family: freight-display-pro, serif;
   font-size: 1em;
-  font-style: normal;
   font-weight: 400;
-  text-align: left;
 }
 
 /* styles intro text */
@@ -107,8 +187,48 @@ h6 {
   text-align: left;
 }
 
+/* text field contact page */
+input {
+  height: 30px;
+  width: 300px;
+ }
+
+.left {
+  padding: 10px;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+/* affects h3 on index.html */
+li > h3 {
+  font-size: 1.6em;
+  font-weight: 400;
+  text-align: left;
+  padding: 0px;
+}
+
+
+/* vision logo images */
+.logos-row {
+  max-width: 90%
+}
+
+/* side margins for all pages */
 .main-container {
-  margin: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#main-logo {
+  width:40vw;
+}
+
+/* mobile image */
+#mobile-proto {
+  width: 70%;
 }
 
 /* navigation bar */
@@ -124,22 +244,73 @@ nav {
   width: 100%;
 }
 
-/* Paragraph text */
+/* contact form text styling */
+.name, .email, .message {
+  color: #393939;
+  font-family: proxima nova;
+  font-weight: normal;
+}
+
+/* paragraph text */
 p {
   font-family: proxima nova;
   font-size: 1.33em;
-  letter-spacing: 1%;
   padding-bottom: 36px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* vision title logo */
+.project-name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 36px;
+  padding-top: 100px;
+  width: 80vw;
+}
+
+/* Image */
+.salvador {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 36px;
+  width: 80vw;
 }
 
 /* social media icon padding */
 .social-media {
   padding:10px;
-  width: 80px;
   height: 80px;
+  width: 80px;
 }
 
+/* message field */
+textarea {
+  border-color: inherit;
+  height: 30px;
+  width: 300px;
+ }
+
+/* vision typeface section */
+.typeface {
+  text-align: left;
+}
+
+/* unordered list style */
 ul {
-  padding-bottom: 16px;
   list-style: none;
+  font-family: proxima nova;
+  font-size: 1.33em;
+  padding-bottom: 36px;
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: center;
+}
+
+/* homepage view case study button alignment */
+.view-casestudy {
+  padding-bottom: 36px;
+  padding-right: 280px;
 }
