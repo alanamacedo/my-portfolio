@@ -178,9 +178,22 @@ button, .button {
   width: 300px;
 }
 
-button {
+
+#button {
+  background-color: #393939;
+  border-radius: 8px;
+  color: #ffff;
   cursor: pointer;
-  position: relative;
+  display: block;
+  font-family: proxima nova;
+  font-size: 1.33em;
+  margin-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  width: 300px;
 }
 
 /* Page background color */
