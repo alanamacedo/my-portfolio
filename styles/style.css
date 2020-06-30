@@ -67,6 +67,13 @@
   background: inherit;
 }
 
+/* DESKTOP NAV, HAMBURGER DISAPPEAR */
+@media screen and (min-width: 991px) {
+  .menu-wrap .hamburger > div {
+    display: none;
+  }
+}
+
 /* Moves Line Down */
 .menu-wrap .hamburger > div::after {
   top: 10px;
