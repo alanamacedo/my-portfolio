@@ -161,13 +161,6 @@ a {
   text-decoration: none;
 }
 
-.border {
-  border-bottom: 4px solid;
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* button style */
 button, .button {
   background-color: #393939;
@@ -224,6 +217,10 @@ body {
   padding-top: 36px;
 }
 
+.change-font {
+  font-family: freight-display-pro, serif;
+  color: #431313;
+}
 /* Competitor Icons */
 .competitors, .footer-icons{
   display: flex;
@@ -336,6 +333,14 @@ h6 {
   color: #431313;
   font-size: 1em;
   font-weight: 400;
+}
+
+/* line */
+hr {
+  border-bottom: 4px solid #393939;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
 }
 
 /* styles intro text */
@@ -456,6 +461,11 @@ textarea {
   border-color: inherit;
   height: 30px;
   width: 300px;
+ }
+
+/* hr padding */
+ .top {
+   padding-top: 36px;
  }
 
 /* vision typeface section */
