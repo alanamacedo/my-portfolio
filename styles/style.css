@@ -563,30 +563,35 @@ ul p {
 @media screen and (min-width: 991px) {
   .box-1 {
     background-color: #FFFBF6;
+
   }
   .project-name {
     display: flex;
     margin-left: 0px;
+    padding-top: 0px;
     padding-bottom: 36px;
-    padding-top: 400px;
-    width: 25vw;
+    width: 30vw;
   }
   .box-1 p {
-    width: 30vw;
+    width: 40vw;
   }
 
   .logo-text-button {
-    width: 30%;
+    width: 45%;
+    display: inline-block;
   }
 
   .proto-image {
-    width: 40%;
+    width: 50%;
+    display: inline-block;
+    padding-top: 200px;
+    padding-left: 50px;
   }
 
   #desktop-proto {
-   float: right;
-    width: 40vw;
+    width: 45vw;
   }
+
   .proto-button {
     background-color: #393939;
     border-radius: 8px;
