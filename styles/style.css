@@ -576,16 +576,16 @@ ul p {
   }
 
   .logo-text-button {
-    width: 50%;
+    width: 30%;
   }
 
   .proto-image {
-    width: 50%;
+    width: 40%;
   }
-  
+
   #desktop-proto {
    float: right;
-    width: 50vw;
+    width: 40vw;
   }
   .proto-button {
     background-color: #393939;
