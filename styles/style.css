@@ -563,7 +563,7 @@ ul p {
   }
   .project-name {
     display: flex;
-    margin-left: 60px;
+    margin-left: 0px;
     padding-bottom: 36px;
     padding-top: 400px;
     width: 25vw;
@@ -576,5 +576,17 @@ ul p {
     width: 50vw;
   }
   .proto-button {
+    background-color: #393939;
+    border-radius: 8px;
+    color: #ffff;
+    display: block;
+    font-family: proxima nova;
+    font-size: 1.33em;
+    margin-bottom: 36px;
+    margin-left: 0;
+    padding: .5em;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
   }
 }
