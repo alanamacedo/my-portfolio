@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .menu-wrap {
   top: 0;
   right: 0;
@@ -65,13 +69,6 @@
   width: 100%;
   height: 2px;
   background: inherit;
-}
-
-/* DESKTOP NAV, HAMBURGER DISAPPEAR */
-@media screen and (min-width: 991px) {
-  .menu-wrap .hamburger > div {
-    display: none;
-  }
 }
 
 /* Moves Line Down */
@@ -185,7 +182,7 @@ button, .button {
   width: 300px;
 }
 
-
+/* contact page button specfic */
 #button {
   background-color: #393939;
   border-radius: 8px;
@@ -331,7 +328,7 @@ h4 {
 
 h5 {
   color: #9B3030;
-  font-size: 1.6em;
+  font-size: 1.66em;
   font-weight: bold;
   text-align: left;
 }
@@ -496,4 +493,88 @@ ul p {
    font-size: inherit;
    text-align: left;
    line-height: 2em;
+}
+
+/*FULL PAGE CONTAINER */
+@media screen and (min-width: 991px) {
+  .full-page-container {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+/* DESKTOP NAV, HAMBURGER DISAPPEAR */
+@media screen and (min-width: 991px) {
+  .menu-wrap {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: inline-block;
+    float: right;
+    margin-right: 60px;
+
+  }
+
+  .desktop-nav ul {
+    display: inline-flex;
+  }
+  .desktop-nav ul li {
+    font-size: 1rem;
+    padding: 3vw;
+  }
+  .desktop-nav ul li a:hover {
+    color: #dadada;
+  }
+
+  .my-logo {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+/* MAIN CONTAINER */
+@media screen and (min-width: 991px) {
+ h1 {
+   font-size: 6em;
+ }
+
+ h2 {
+   font-size: 3em;
+ }
+
+ h3 {
+   font-size: 3em;
+ }
+
+ h4 {
+   font-size: 3em;
+ }
+
+ h5 {
+   font-size: 3em;
+ }
+}
+
+/* BOX -1, DESKTOP */
+@media screen and (min-width: 991px) {
+  .box-1 {
+    background-color: #FFFBF6;
+  }
+  .project-name {
+    display: flex;
+    margin-left: 60px;
+    padding-bottom: 36px;
+    padding-top: 400px;
+    width: 25vw;
+  }
+  .box-1 p {
+    width: 30vw;
+  }
+  #desktop-proto {
+   float: right;
+    width: 50vw;
+  }
+  .proto-button {
+  }
 }
