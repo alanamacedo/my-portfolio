@@ -229,13 +229,19 @@ body {
   color: #431313;
 }
 /* Competitor Icons */
-.competitors, .footer-icons{
+ .footer-icons{
   display: flex;
   justify-content: center;
   padding-right: 5px;
   width: 100%;
 }
+.competitors {
+  padding-bottom: 36px;
+}
 
+#competitors {
+  width: 60vw;
+}
 /* Contact form */
 .contact-section {
   padding-top: 36px;
@@ -286,6 +292,7 @@ footer {
 form {
   display: block;
 }
+
 
 /* hi, i'm alana on index.html */
 .hello {
@@ -456,6 +463,11 @@ section {
   padding-top: 36px;
   padding-bottom: 36px;
 }
+
+#shrink {
+  width: 40%;
+}
+
 /* social media icon padding */
 .social-media {
   padding:10px;
@@ -498,12 +510,27 @@ ul p {
    line-height: 2em;
 }
 
-/*FULL PAGE CONTAINER */
+
+
+
+
+/* DESKTOP MARGINS (NOT AFFECTING BACKGROUND) */
 @media screen and (min-width: 991px) {
-  .full-page-container {
+  .margin {
     margin-left: 60px;
     margin-right: 60px;
   }
+
+  .nav {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .button {
+    margin-bottom: 72px;
+    margin-top: 72px;
+  }
+
 }
 
 /* DESKTOP NAV, HAMBURGER DISAPPEAR */
@@ -531,10 +558,17 @@ ul p {
   }
 
   .my-logo {
-    height: 140px;
+    height: 120px;
     width: 140px;
+    margin-left: 60px;
+
   }
 }
+
+
+
+
+
 
 /* MAIN CONTAINER */
 @media screen and (min-width: 991px) {
@@ -542,22 +576,36 @@ ul p {
    font-size: 6em;
  }
 
- h2 {
+ h2, h3, h4, h5 {
    font-size: 3em;
+   padding-bottom: 72px;
+   padding-top: 72px;
  }
 
- h3 {
-   font-size: 3em;
+ #eighty-vw {
+   width: 40vw;
  }
 
- h4 {
-   font-size: 3em;
+ #shrink {
+   width: 50%;
  }
 
- h5 {
-   font-size: 3em;
- }
 }
+
+@media screen and (min-width: 575px) {
+  #eighty-vw {
+    width: 40vw;
+  }
+
+  #shrink {
+    width: 50%;
+  }
+}
+
+
+
+
+
 
 /* BOX -1, DESKTOP */
 @media screen and (min-width: 991px) {
@@ -585,6 +633,7 @@ ul p {
     width: 50%;
     display: inline-block;
     padding-top: 200px;
+    padding-left: 60px;
 
   }
 
@@ -614,26 +663,107 @@ ul p {
   }
 }
 
+
+
+
+
 /* ROLES, DELIVERABLES, TOOLS */
 @media screen and (min-width: 991px) {
   .accomplished {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
+
 
   .roles {
     display: inline-block;
-    width: 30%;
+    width: 33%;
+    border-right: 1px solid black;
+    height: 500px;
+
   }
 
   .deliverables {
     display: inline-block;
-    width: 30%;
+    width: 33%;
+    border-right: 1px solid black;
+    height: 500px;
+
   }
 
   .tools {
     display: inline-block;
-    width: 30%;
+    width: 33%;
+
+  }
+  .prob-solution {
+    display: inline-block;
+    padding-bottom: 30px;
+    width: 40%;
   }
 
+  .answer {
+    display: inline-block;
+    width: 50%;
+  }
+}
 
+
+
+
+
+/* RESEARCH AND DISCOVERY */
+@media screen and (min-width: 991px) {
+
+  .chart {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .graph {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .personas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .laura {
+    display: inline-block;
+    padding: 50px;
+    width: 20%;
+  }
+
+  .jess {
+    display: inline-block;
+    padding: 50px;
+    width: 20%;
+  }
+
+  .alex {
+    display: inline-block;
+    padding: 50px;
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 575px) {
+
+  .chart {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .graph {
+    display: inline-block;
+    width: 40%;
+  }
 }
