@@ -559,7 +559,7 @@ ul p {
 
   .my-logo {
     height: 120px;
-    width: 140px;
+    width: 120px;
     margin-left: 60px;
 
   }
@@ -587,14 +587,14 @@ ul p {
  }
 
  #shrink {
-   width: 50%;
+   width: 45%;
  }
 
 }
 
 @media screen and (min-width: 575px) {
   #eighty-vw {
-    width: 40vw;
+    width: 30vw;
   }
 
   #shrink {
@@ -617,9 +617,9 @@ ul p {
     display: flex;
     margin-left: 0px;
     padding-top: 0px;
-
     width: 30vw;
   }
+
   .box-1 p {
     width: 40vw;
   }
@@ -728,6 +728,13 @@ ul p {
     width: 40%;
   }
 
+  .research {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
   .personas {
     width: 100%;
     display: flex;
@@ -763,6 +770,89 @@ ul p {
   }
 
   .graph {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .research {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .personas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .laura {
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+  }
+
+  .jess {
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+  }
+
+  .alex {
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+  }
+}
+
+
+
+/* INFORMATION ARCHITECTURE */
+
+@media and screen (mid-width: 991px) {
+  .center {
+    text-align: center;
+  }
+
+  .flows {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .flow-1 {
+    display: inline-block;
+    width: 40%
+  }
+
+  .flow-2 {
+    display: inline-block;
+    width: 40%
+  }
+
+  #inline {
+    display: inline-block;
+  }
+
+  .wireframes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .wire-sketch {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .lo-fi {
     display: inline-block;
     width: 40%;
   }
