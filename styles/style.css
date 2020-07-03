@@ -827,12 +827,22 @@ ul p {
   }
 
   .flow-1 {
-    display: inline-block;
+    display: flex;
     width: 40%
   }
 
+  .flow-one {
+    display: inline;
+    padding: 50px;
+  }
+
+  .flow-two {
+    display: inline;
+    padding: 50px;
+  }
+
   .flow-2 {
-    display: inline-block;
+    display: flex;
     width: 40%
   }
 
@@ -852,7 +862,7 @@ ul p {
     width: 40%;
   }
 
-  .lo-fi {
+  .lo- {
     display: inline-block;
     width: 40%;
   }
