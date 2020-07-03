@@ -269,16 +269,16 @@ body {
 }
 
 /* desktop images */
-#desktop {
+.desktop {
   width: 90%;
 }
 
-#desktop-proto {
+.desktop-proto {
   width: 100vw;
 }
 
 /* mindmap, listmaking, color palette, sketches, flows, preference tests, type logo, wireframes*/
-#eighty-vw{
+.eighty-vw{
   width: 80vw;
 }
 
@@ -401,12 +401,12 @@ li > h3 {
   margin: auto;
 }
 
-#main-logo {
+.main-logo {
   width:40vw;
 }
 
 /* mobile image */
-#mobile-proto {
+.mobile-proto {
   width: 70%;
 }
 
@@ -464,7 +464,7 @@ section {
   padding-bottom: 36px;
 }
 
-#shrink {
+.shrink {
   width: 40%;
 }
 
@@ -510,6 +510,11 @@ ul p {
    line-height: 2em;
 }
 
+.vision-case-container {
+  background-color: #FFFBF6;
+  padding-bottom: 20px;
+  width: 100%;
+}
 
 
 
@@ -582,22 +587,22 @@ ul p {
    padding-top: 72px;
  }
 
- #eighty-vw {
+ .eighty-vw {
    width: 40vw;
  }
 
- #shrink {
+ .shrink {
    width: 45%;
  }
 
 }
 
 @media screen and (min-width: 575px) {
-  #eighty-vw {
+  .eighty-vw {
     width: 30vw;
   }
 
-  #shrink {
+  .shrink {
     width: 50%;
   }
 }
@@ -643,7 +648,7 @@ ul p {
   }
 
 
-  #desktop-proto {
+  .desktop-proto {
     width: 50vw;
   }
 
@@ -793,19 +798,19 @@ ul p {
   .laura {
     display: inline-block;
     padding: 10px;
-    width: 20%;
+    width: 30%;
   }
 
   .jess {
     display: inline-block;
     padding: 10px;
-    width: 20%;
+    width: 30%;
   }
 
   .alex {
     display: inline-block;
     padding: 10px;
-    width: 20%;
+    width: 30%;
   }
 }
 
@@ -823,32 +828,18 @@ ul p {
     padding-bottom: 72px;
   }
 
-  /*.flow-1 {
+  .flows-1 {
     display: inline-block;
     width: 40%
-  }*/
-
-  .flow-one {
-    display: inline;
-    padding: 50px;
-    width: 40%;
   }
 
-  .flow-two {
-    display: inline;
-    padding: 50px;
-    width: 40%;
-  }
-
-  /*.flow-2 {
+  .flows-2 {
     display: inline-block;
     width: 40%
-  }*/
-
-  #inline {
-    display: inline-block;
   }
+}
 
+/****************
   .wireframes{
     width: 100%;
     display: flex;
@@ -861,7 +852,7 @@ ul p {
     width: 40%;
   }
 
-  .lo- {
+  .lo-fi {
     display: inline-block;
     width: 40%;
   }
