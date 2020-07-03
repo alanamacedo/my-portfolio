@@ -814,9 +814,6 @@ ul p {
 /* INFORMATION ARCHITECTURE */
 
 @media and screen (mid-width: 991px) {
-  .center {
-    text-align: center;
-  }
 
   .flows {
     width: 100%;
@@ -826,25 +823,27 @@ ul p {
     padding-bottom: 72px;
   }
 
-  .flow-1 {
-    display: flex;
+  /*.flow-1 {
+    display: inline-block;
     width: 40%
-  }
+  }*/
 
   .flow-one {
     display: inline;
     padding: 50px;
+    width: 40%;
   }
 
   .flow-two {
     display: inline;
     padding: 50px;
+    width: 40%;
   }
 
-  .flow-2 {
-    display: flex;
+  /*.flow-2 {
+    display: inline-block;
     width: 40%
-  }
+  }*/
 
   #inline {
     display: inline-block;
