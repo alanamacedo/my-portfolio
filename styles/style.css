@@ -818,7 +818,7 @@ ul p {
 
 /* INFORMATION ARCHITECTURE */
 
-@media and screen (mid-width: 991px) {
+@media screen and (min-width: 991px) {
 
   .flows {
     width: 100%;
@@ -837,9 +837,11 @@ ul p {
     display: inline-block;
     width: 40%
   }
-}
 
-/****************
+  .text-center {
+    text-align: center;
+  }
+
   .wireframes{
     width: 100%;
     display: flex;
