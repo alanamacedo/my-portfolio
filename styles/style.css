@@ -440,6 +440,9 @@ p {
   padding-right: 16px;
 }
 
+.prof-pic {
+  visibility: hidden;
+}
 /* vision title logo */
 .project-name {
   display: block;
@@ -517,7 +520,60 @@ ul p {
 }
 
 
+@media screen and (min-width: 575px) {
+  .eighty-vw {
+    width: 30vw;
+  }
 
+  .shrink {
+    width: 50%;
+  }
+
+  /* RESEARCH AND DISCOVERY */
+  .chart {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .graph {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .research {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .personas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .laura {
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
+  }
+
+  .jess {
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
+  }
+
+  .alex {
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
+  }
+}
 
 
 @media screen and (min-width: 991px) {
@@ -712,19 +768,19 @@ ul p {
   .laura {
     display: inline-block;
     padding: 50px;
-    width: 20%;
+    width: 30%;
   }
 
   .jess {
     display: inline-block;
     padding: 50px;
-    width: 20%;
+    width: 30%;
   }
 
   .alex {
     display: inline-block;
     padding: 50px;
-    width: 20%;
+    width: 30%;
   }
 
   /* INFORMATION ARCHITECTURE */
@@ -822,7 +878,7 @@ ul p {
   .palette {
   width: 80%;
   }
-  
+
 
   /* VISUAL DESIGN */
   .hi-fi-testing {
@@ -868,66 +924,28 @@ ul p {
     display: inline-block;
     width: 40%;
   }
-}
 
 
-
-
-
-
-
-
-@media screen and (min-width: 575px) {
-  .eighty-vw {
-    width: 30vw;
+  /* HOMEPAGE */
+  .prof-pic {
+    visibility: visible;
   }
 
-  .shrink {
-    width: 50%;
+  .intro-with-pic {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
-  /* RESEARCH AND DISCOVERY */
-  .chart {
-    display: inline-block;
-    width: 50%;
-  }
-
-  .graph {
+  .homepage-intro {
     display: inline-block;
     width: 40%;
   }
 
-  .research {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .personas {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .laura {
+  .profile-pic {
     display: inline-block;
-    padding: 10px;
-    width: 25%;
-  }
-
-  .jess {
-    display: inline-block;
-    padding: 10px;
-    width: 25%;
-  }
-
-  .alex {
-    display: inline-block;
-    padding: 10px;
-    width: 25%;
+    width: 40%;
   }
 }
