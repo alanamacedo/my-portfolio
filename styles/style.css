@@ -683,6 +683,9 @@ ul p {
     padding-bottom: 72px;
   }
 
+  .how {
+    padding-top: 0;
+  }
 
   .roles {
     display: inline-block;
@@ -704,13 +707,15 @@ ul p {
 
   }
   .prob-solution {
-    display: inline-block;
+    display: flex;
     padding-bottom: 30px;
-    width: 40%;
   }
 
+  .prob-sol-header {
+    padding: 0;
+    width: 50%;
+  }
   .answer {
-    display: inline-block;
     width: 50%;
   }
 }
