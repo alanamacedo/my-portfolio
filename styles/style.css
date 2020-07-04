@@ -553,6 +553,7 @@ ul p {
 
   .desktop-nav ul {
     display: inline-flex;
+    padding-bottom: 12px;
   }
   .desktop-nav ul li {
     font-size: 1rem;
@@ -687,7 +688,6 @@ ul p {
     display: inline-block;
     width: 33%;
     border-right: 1px solid black;
-    height: 500px;
 
   }
 
@@ -695,7 +695,6 @@ ul p {
     display: inline-block;
     width: 33%;
     border-right: 1px solid black;
-    height: 500px;
 
   }
 
@@ -830,12 +829,15 @@ ul p {
 
   .flows-1 {
     display: inline-block;
-    width: 40%
+    width: 100%;
+    height: 100%;
   }
 
   .flows-2 {
     display: inline-block;
-    width: 40%
+    width: 100%;
+    height: 100%;
+
   }
 
   .text-center {
@@ -858,4 +860,11 @@ ul p {
     display: inline-block;
     width: 40%;
   }
+
+  .user-test {
+    width: 80%;
+  }
 }
+
+
+/* BRANDING AND IDENTITY */
