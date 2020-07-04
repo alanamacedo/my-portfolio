@@ -519,8 +519,9 @@ ul p {
 
 
 
-/* DESKTOP MARGINS (NOT AFFECTING BACKGROUND) */
+
 @media screen and (min-width: 991px) {
+  /* DESKTOP MARGINS (NOT AFFECTING BACKGROUND) */
   .margin {
     margin-left: 60px;
     margin-right: 60px;
@@ -536,10 +537,7 @@ ul p {
     margin-top: 72px;
   }
 
-}
-
 /* DESKTOP NAV, HAMBURGER DISAPPEAR */
-@media screen and (min-width: 991px) {
   .menu-wrap {
     display: none;
   }
@@ -567,54 +565,28 @@ ul p {
     height: 120px;
     width: 120px;
     margin-left: 60px;
-
   }
-}
 
+  /* MAIN CONTAINER */
+  h1 {
+    font-size: 6em;
+  }
 
+  h2, h3, h4, h5 {
+    font-size: 3em;
+    padding-bottom: 72px;
+    padding-top: 72px;
+  }
 
-
-
-
-/* MAIN CONTAINER */
-@media screen and (min-width: 991px) {
- h1 {
-   font-size: 6em;
- }
-
- h2, h3, h4, h5 {
-   font-size: 3em;
-   padding-bottom: 72px;
-   padding-top: 72px;
- }
-
- .eighty-vw {
-   width: 40vw;
- }
-
- .shrink {
-   width: 45%;
- }
-
-}
-
-@media screen and (min-width: 575px) {
   .eighty-vw {
-    width: 30vw;
+    width: 40vw;
   }
 
   .shrink {
-    width: 50%;
+    width: 45%;
   }
-}
 
-
-
-
-
-
-/* BOX -1, DESKTOP */
-@media screen and (min-width: 991px) {
+  /* BOX -1, DESKTOP */
   .box-1 {
     background-color: #FFFBF6;
   }
@@ -640,7 +612,6 @@ ul p {
     display: inline-block;
     padding-top: 200px;
     padding-left: 60px;
-
   }
 
   .proto-image .center {
@@ -667,14 +638,8 @@ ul p {
     text-decoration: none;
     width: 300px;
   }
-}
 
-
-
-
-
-/* ROLES, DELIVERABLES, TOOLS */
-@media screen and (min-width: 991px) {
+  /* ROLES, DELIVERABLES, TOOLS */
   .accomplished {
     width: 100%;
     display: flex;
@@ -691,21 +656,19 @@ ul p {
     display: inline-block;
     width: 33%;
     border-right: 1px solid black;
-
   }
 
   .deliverables {
     display: inline-block;
     width: 33%;
     border-right: 1px solid black;
-
   }
 
   .tools {
     display: inline-block;
     width: 33%;
-
   }
+
   .prob-solution {
     display: flex;
     padding-bottom: 30px;
@@ -715,18 +678,12 @@ ul p {
     padding: 0;
     width: 50%;
   }
+
   .answer {
     width: 50%;
   }
-}
 
-
-
-
-
-/* RESEARCH AND DISCOVERY */
-@media screen and (min-width: 991px) {
-
+  /* RESEARCH AND DISCOVERY */
   .chart {
     display: inline-block;
     width: 50%;
@@ -769,61 +726,8 @@ ul p {
     padding: 50px;
     width: 20%;
   }
-}
 
-@media screen and (min-width: 575px) {
-
-  .chart {
-    display: inline-block;
-    width: 50%;
-  }
-
-  .graph {
-    display: inline-block;
-    width: 40%;
-  }
-
-  .research {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .personas {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .laura {
-    display: inline-block;
-    padding: 10px;
-    width: 25%;
-  }
-
-  .jess {
-    display: inline-block;
-    padding: 10px;
-    width: 25%;
-  }
-
-  .alex {
-    display: inline-block;
-    padding: 10px;
-    width: 25%;
-  }
-}
-
-
-
-/* INFORMATION ARCHITECTURE */
-
-@media screen and (min-width: 991px) {
-
+  /* INFORMATION ARCHITECTURE */
   .flows {
     width: 100%;
     display: flex;
@@ -869,11 +773,8 @@ ul p {
   .user-test {
     width: 80%;
   }
-}
 
-
-/* BRANDING AND IDENTITY */
-@media screen and (min-width: 991px) {
+  /* BRANDING AND IDENTITY */
   .map-and-list {
     width: 100%;
     display: flex;
@@ -919,12 +820,10 @@ ul p {
   }
 
   .palette {
-    width: 70%;
+  width: 80%;
   }
-}
 
-/* VISUAL DEISIGN */
-@media screen and (min-width: 991px) {
+  /* VISUAL DESIGN */
   .hi-fi-testing {
     width: 100%;
     display: flex;
@@ -967,5 +866,68 @@ ul p {
   .mob-2 {
     display: inline-block;
     width: 40%;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 575px) {
+  .eighty-vw {
+    width: 30vw;
+  }
+
+  .shrink {
+    width: 50%;
+  }
+
+  /* RESEARCH AND DISCOVERY */
+  .chart {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .graph {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .research {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .personas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .laura {
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
+  }
+
+  .jess {
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
+  }
+
+  .alex {
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
   }
 }
