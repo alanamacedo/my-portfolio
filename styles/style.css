@@ -797,19 +797,19 @@ ul p {
   .laura {
     display: inline-block;
     padding: 10px;
-    width: 30%;
+    width: 25%;
   }
 
   .jess {
     display: inline-block;
     padding: 10px;
-    width: 30%;
+    width: 25%;
   }
 
   .alex {
     display: inline-block;
     padding: 10px;
-    width: 30%;
+    width: 25%;
   }
 }
 
@@ -868,3 +868,99 @@ ul p {
 
 
 /* BRANDING AND IDENTITY */
+@media screen and (min-width: 991px) {
+  .map-and-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .map {
+    display: inline-block;
+    padding: 10px;
+    width: 60%;
+  }
+
+  .list {
+    display: inline-block;
+    padding: 10px;
+    width: 40%;
+  }
+
+  .logo-sketches {
+    width: 80%;
+  }
+
+  .style-guide-logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .large-logo {
+    display: inline-block;
+    padding: 10px;
+    width: 30%;
+  }
+
+  .text-logos {
+    display: inline-block;
+    padding: 10px;
+    width: 70%;
+  }
+
+  .palette {
+    width: 70%;
+  }
+}
+
+/* VISUAL DEISIGN */
+@media screen and (min-width: 991px) {
+  .hi-fi-testing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .ut-1 {
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .ut-2 {
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .first-hifi {
+    width: 80%;
+  }
+
+  .final-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .mob-1 {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .mob-2 {
+    display: inline-block;
+    width: 40%;
+  }
+}
