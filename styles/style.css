@@ -247,10 +247,6 @@ body {
   padding-top: 36px;
 }
 
-.contact {
-  width: 50%;
-}
-
 .contact-form {
   background-image: url(../images/background.png);
   border-radius: 4px;
@@ -265,6 +261,7 @@ body {
   width: 100%;
   display: block;
   justify-content: center;
+  text-align: left;
 }
 
 
@@ -296,6 +293,7 @@ footer {
 
 form {
   display: block;
+
 }
 
 
@@ -383,6 +381,10 @@ input {
   text-align: left;
 }
 
+label {
+  display: inline-block;
+}
+
 li {
   list-style: none;
 }
@@ -424,6 +426,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 /* contact form text styling */
@@ -431,7 +434,9 @@ nav {
   color: #393939;
   font-family: proxima nova;
   font-weight: normal;
-  display: block;
+  display: flex;
+  justify-content: center;
+
 }
 
 /* paragraph text */
@@ -495,10 +500,6 @@ textarea {
    padding-top: 36px;
  }
 
-/* vision typeface section
-.typeface {
-  text-align: left;
-} */
 
 /* unordered list style */
 ul {
@@ -526,12 +527,53 @@ ul p {
 
 
 @media screen and (min-width: 575px) {
+  /* MAIN CONTAINER */
   .eighty-vw {
     width: 30vw;
   }
 
+  h1 {
+    font-size: 4em;
+  }
+
+  h2, h3, h4, h5 {
+    font-size: 2em;
+    padding-bottom: 72px;
+    padding-top: 72px;
+  }
+
+  p, .UXD {
+    font-size: 1.33em;
+  }
+
   .shrink {
     width: 50%;
+  }
+
+  /* BOX -1, IPAD */
+  .project-name {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    width: 60vw;
+  }
+
+  .answer {
+    width: 50%;
+  }
+
+  .how {
+    padding-top: 0;
+  }
+
+  .prob-sol-header {
+    padding: 0;
+    width: 50%;
+  }
+
+  .prob-solution {
+    display: flex;
+    padding-bottom: 30px;
   }
 
   /* RESEARCH AND DISCOVERY */
@@ -578,11 +620,61 @@ ul p {
     padding: 10px;
     width: 25%;
   }
+
+  /* INFORMATION ARCHITECTURE*/
+
+  .lo-fi, .wire-sketch, .user-test {
+    width: 80%;
+  }
+
+  /* BRANDING AND IDENTITY*/
+  .map, .list, .logo-sketches, .text-logos {
+    width: 80%;
+  }
+
+  .palette, .fonts-used {
+    width: 80%;
+  }
+
+  /*VISUAL DESIGN*/
+  .first-hifi {
+    width: 80%;
+  }
+
+  .final-mobile, .hi-fi-testing {
+    width: 80%;
+  }
+
+  .mob-1, .mob-2{
+    width: 80%;
+  }
+
 }
 
+@media screen and (min-width: 771px) {
+  /* ROLES, DELIVERABLES, TOOLS */
+  .accomplished {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
+    padding-top: 72px;
+    width: 100%;
+  }
 
+  .deliverables, .roles, .tools {
+    border-right: 1px solid black;
+    display: inline-block;
+    width: 33%;
+  }
+
+}
 @media screen and (min-width: 991px) {
   /* DESKTOP MARGINS (NOT AFFECTING BACKGROUND) */
+  .button {
+    margin-bottom: 72px;
+    margin-top: 72px;
+  }
+
   .margin {
     margin-left: 60px;
     margin-right: 60px;
@@ -593,27 +685,18 @@ ul p {
     margin-right: 60px;
   }
 
-  .button {
-    margin-bottom: 72px;
-    margin-top: 72px;
-  }
-
 /* DESKTOP NAV, HAMBURGER DISAPPEAR */
-  .menu-wrap {
-    display: none;
-  }
-
   .desktop-nav {
     display: inline-block;
     float: right;
     margin-right: 60px;
-
   }
 
   .desktop-nav ul {
     display: inline-flex;
     padding-bottom: 12px;
   }
+
   .desktop-nav ul li {
     font-size: 1rem;
     padding: 3vw;
@@ -622,13 +705,21 @@ ul p {
     color: #dadada;
   }
 
+  .menu-wrap {
+    display: none;
+  }
+
   .my-logo {
     height: 120px;
-    width: 120px;
     margin-left: 60px;
+    width: 120px;
   }
 
   /* MAIN CONTAINER */
+  .eighty-vw {
+    width: 40vw;
+  }
+
   h1 {
     font-size: 6em;
   }
@@ -643,10 +734,6 @@ ul p {
     font-size: 2em;
   }
 
-  .eighty-vw {
-    width: 40vw;
-  }
-
   .shrink {
     width: 70%;
   }
@@ -656,37 +743,24 @@ ul p {
     background-color: #FFFBF6;
   }
 
+  .box-1 p {
+    width: 40vw;
+  }
+
+  .desktop-proto {
+    width: 50vw;
+  }
+
+  .logo-text-button {
+    display: inline-block;
+    width: 45%;
+  }
+
   .project-name {
     display: flex;
     margin-left: 0px;
     padding-top: 0px;
     width: 30vw;
-  }
-
-  .box-1 p {
-    width: 40vw;
-  }
-
-  .logo-text-button {
-    width: 45%;
-    display: inline-block;
-  }
-
-  .proto-image {
-    width: 50%;
-    display: inline-block;
-    padding-top: 200px;
-    padding-left: 60px;
-  }
-
-  .proto-image .center {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-
-  .desktop-proto {
-    width: 50vw;
   }
 
   .proto-button {
@@ -704,39 +778,39 @@ ul p {
     width: 300px;
   }
 
+  .proto-image {
+    width: 50%;
+    display: inline-block;
+    padding-left: 60px;
+    padding-top: 200px;
+  }
+
+  .proto-image .center {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
   /* ROLES, DELIVERABLES, TOOLS */
   .accomplished {
-    width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 72px;
     padding-bottom: 72px;
+    padding-top: 72px;
+    width: 100%;
+  }
+
+  .answer {
+    width: 50%;
+  }
+
+  .deliverables, .roles, .tools {
+    border-right: 1px solid black;
+    display: inline-block;
+    width: 33%;
   }
 
   .how {
     padding-top: 0;
-  }
-
-  .roles {
-    display: inline-block;
-    width: 33%;
-    border-right: 1px solid black;
-  }
-
-  .deliverables {
-    display: inline-block;
-    width: 33%;
-    border-right: 1px solid black;
-  }
-
-  .tools {
-    display: inline-block;
-    width: 33%;
-  }
-
-  .prob-solution {
-    display: flex;
-    padding-bottom: 30px;
   }
 
   .prob-sol-header {
@@ -744,55 +818,48 @@ ul p {
     width: 50%;
   }
 
-  .answer {
-    width: 50%;
+  .prob-solution {
+    display: flex;
+    padding-bottom: 30px;
   }
 
   /* RESEARCH AND DISCOVERY */
-  .chart {
+  .chart, .graph {
     display: inline-block;
     width: 50%;
   }
 
-  .graph {
+  .laura, .alex, .jess {
     display: inline-block;
-    width: 50%;
+    padding: 50px;
+    width: 30%;
+  }
+
+  .personas {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    width: 100%;
   }
 
   .research {
-    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 72px;
     padding-bottom: 72px;
-  }
-  .personas {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .laura {
-    display: inline-block;
-    padding: 50px;
-    width: 30%;
-  }
-
-  .jess {
-    display: inline-block;
-    padding: 50px;
-    width: 30%;
-  }
-
-  .alex {
-    display: inline-block;
-    padding: 50px;
-    width: 30%;
   }
 
   /* INFORMATION ARCHITECTURE */
+  .buttons-side-by-side, .wireframes {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    width: 100%;
+  }
+
   .flows {
     width: 100%;
     display: flex;
@@ -801,13 +868,7 @@ ul p {
     padding-bottom: 72px;
   }
 
-  .flows-1 {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-  }
-
-  .flows-2 {
+  .flows-1, .flows-2 {
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -821,49 +882,29 @@ ul p {
     padding-bottom: 90px;
   }
 
-  .buttons-side-by-side {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .view-user-flow .view-content-strat {
+  .lofi, .wire-sketch {
     display: inline-block;
-  }
-
-  .view-wire-sketch .view-wire {
-    display: inline-block;
+    width: 40%;
   }
 
   .text-center {
     text-align: center;
   }
 
-  .wireframes{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-  .wire-sketch {
-    display: inline-block;
-    width: 40%;
-  }
-
-  .lo-fi {
-    display: inline-block;
-    width: 40%;
-  }
-
   .user-test {
     width: 80%;
   }
 
+  .view-user-flow, .view-content-strat, .view-wire-sketch, .view-wire {
+    display: inline-block;
+  }
+
   /* BRANDING AND IDENTITY */
-  .map-and-list {
+  .fonts-used {
+    width: 70%;
+  }
+
+  .map-and-list, .style-guide-logos {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -871,15 +912,13 @@ ul p {
     padding-bottom: 72px;
   }
 
-  .map {
+  .map, .list {
     display: inline-block;
     padding: 10px;
     width: 60%;
   }
 
   .list {
-    display: inline-block;
-    padding: 10px;
     width: 40%;
   }
 
@@ -887,62 +926,27 @@ ul p {
     width: 80%;
   }
 
-  .style-guide-logos {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .large-logo {
+  .large-logo, .text-logos {
     display: inline-block;
     padding: 10px;
     width: 30%;
   }
 
-  .text-logos {
-    display: inline-block;
-    padding: 10px;
-    width: 70%;
-  }
-
   .palette {
-  width: 80%;
+    width: 80%;
   }
 
-  .fonts-used {
+  .text-logos {
     width: 70%;
   }
 
   /* VISUAL DESIGN */
-  .hi-fi-testing {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .ut-1 {
-    display: inline-block;
-    padding: 10px;
-    width: 50%;
-    text-align: center;
-  }
-
-  .ut-2 {
-    display: inline-block;
-    padding: 10px;
-    width: 50%;
-    text-align: center;
-  }
 
   .first-hifi {
     width: 80%;
   }
 
-  .final-mobile {
+  .final-mobile, .hi-fi-testing {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -950,26 +954,43 @@ ul p {
     padding-bottom: 72px;
   }
 
-  .mob-1 {
+  .mob-1, .mob-2{
     display: inline-block;
     width: 40%;
   }
 
-  .mob-2 {
+  .ut-1, .ut-2 {
     display: inline-block;
-    width: 40%;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
   }
-
 
   /* HOMEPAGE */
+  .about-vision-casestudy, .vision-case-image {
+    display: inline-block;
+    width: 50%;
+    -webkit-transform:  rotate(180deg);
+    transform:  rotate(180deg);
+  }
+
+  .about-vision-casestudy {
+    width: 40%;
+  }
 
   .button-view-cs {
     margin-top: 36px;
   }
 
-  .intro {
-    font-size: 2em;
+  .hello {
+    padding-top: 0;
   }
+
+  .homepage-intro {
+    display: inline-block;
+    width: 60%;
+  }
+
   .h-two-desktop {
     font-size: 4.66em;
   }
@@ -979,30 +1000,25 @@ ul p {
     line-height: 51pt;
   }
 
-  .hello {
-    padding-top: 0;
+  .intro {
+    font-size: 2em;
   }
 
   .intro-with-pic {
-    width: 100%;
     display: flex;
     padding-top: 200px;
     padding-bottom: 72px;
-  }
-
-  .homepage-intro {
-    display: inline-block;
-    width: 60%;
+    width: 100%;
   }
 
   .line-height {
     line-height: 2em;
   }
+
   .profile-pic {
     display: inline-block;
-    width: 20%;
     padding-left: 150px;
-
+    width: 20%;
   }
 
   .prof-pic {
@@ -1019,25 +1035,11 @@ ul p {
     transform:  rotate(180deg);
   }
 
-  .vision-case-image {
-    display: inline-block;
-    width: 50%;
-    -webkit-transform:  rotate(180deg);
-    transform:  rotate(180deg);
-  }
-
-  .about-vision-casestudy {
-    display: inline-block;
-    width: 40%;
-    -webkit-transform:  rotate(180deg);
-    transform:  rotate(180deg);
-  }
-
   /* ABOUT PAGE */
   .salvador {
     display: block;
-    width: 80%;
     height: 600px;
+    width: 80%;
   }
 
   /* CONTACT PAGE */
@@ -1056,18 +1058,15 @@ ul p {
     padding: 50px 30px 10px 30px;
   }
 
-  .contact {
-    width: 60%;
-  }
+  textarea {
+    border-color: inherit;
+    height: 100px;
+    width: 500px;
+   }
 
   .textbox {
     height: 50px;
     width: 500px;
   }
 
-  textarea {
-    border-color: inherit;
-    height: 100px;
-    width: 500px;
-   }
 }
