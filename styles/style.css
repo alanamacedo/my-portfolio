@@ -529,7 +529,7 @@ ul p {
 @media screen and (min-width: 575px) {
   /* MAIN CONTAINER */
   .eighty-vw {
-    width: 30vw;
+    width: 40vw;
   }
 
   h1 {
@@ -556,24 +556,6 @@ ul p {
     justify-content: center;
     padding-top: 200px;
     width: 60vw;
-  }
-
-  .answer {
-    width: 50%;
-  }
-
-  .how {
-    padding-top: 0;
-  }
-
-  .prob-sol-header {
-    padding: 0;
-    width: 50%;
-  }
-
-  .prob-solution {
-    display: flex;
-    padding-bottom: 30px;
   }
 
   /* RESEARCH AND DISCOVERY */
@@ -641,17 +623,21 @@ ul p {
     width: 80%;
   }
 
-  .final-mobile, .hi-fi-testing {
-    width: 80%;
-  }
-
   .mob-1, .mob-2{
     width: 80%;
   }
 
+  .ut-1, .ut-2 {
+    text-align: center;
+  }
+
+  .ut {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 771px) {
+
   /* ROLES, DELIVERABLES, TOOLS */
   .accomplished {
     display: flex;
@@ -661,10 +647,34 @@ ul p {
     width: 100%;
   }
 
+  .answer {
+    width: 50%;
+  }
+
   .deliverables, .roles, .tools {
     border-right: 1px solid black;
     display: inline-block;
     width: 33%;
+  }
+
+  .how {
+    padding-top: 0;
+  }
+
+  .prob-sol-header {
+    padding: 0;
+    width: 50%;
+  }
+
+  .prob-solution {
+    display: flex;
+    padding-bottom: 30px;
+  }
+
+  /* RESEARCH AND DISCOVERY */
+  .chart, .graph {
+    display: inline-block;
+    width: 50%;
   }
 
 }
