@@ -440,9 +440,10 @@ p {
   padding-right: 16px;
 }
 
-.prof-pic {
-  visibility: hidden;
+.profile-pic {
+  display: none;
 }
+
 /* vision title logo */
 .project-name {
   display: block;
@@ -927,9 +928,6 @@ ul p {
 
 
   /* HOMEPAGE */
-  .prof-pic {
-    visibility: visible;
-  }
 
   .intro-with-pic {
     width: 100%;
@@ -947,5 +945,35 @@ ul p {
   .profile-pic {
     display: inline-block;
     width: 40%;
+  }
+
+  .vision-case-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .vision-case-image {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .about-vision-casestudy {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+  }
+
+  /* CONTACT PAGE */
+  .contact-form {
+
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 2em;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 50px 30px 10px 30px;
   }
 }
