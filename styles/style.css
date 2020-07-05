@@ -166,7 +166,7 @@ a {
 }
 
 /* button style */
-button, .button {
+.button {
   background-color: #393939;
   border-radius: 8px;
   color: #ffff;
@@ -179,7 +179,7 @@ button, .button {
   padding: .5em;
   text-align: center;
   text-decoration: none;
-  width: 300px;
+  width: 325px;
 }
 
 /* contact page button specfic */
@@ -285,6 +285,7 @@ body {
 .eighty-vw{
   width: 80vw;
 }
+
 
 /* social media links */
 footer {
@@ -494,10 +495,10 @@ textarea {
    padding-top: 36px;
  }
 
-/* vision typeface section */
+/* vision typeface section
 .typeface {
   text-align: left;
-}
+} */
 
 /* unordered list style */
 ul {
@@ -820,6 +821,22 @@ ul p {
     padding-bottom: 90px;
   }
 
+  .buttons-side-by-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .view-user-flow .view-content-strat {
+    display: inline-block;
+  }
+
+  .view-wire-sketch .view-wire {
+    display: inline-block;
+  }
+
   .text-center {
     text-align: center;
   }
@@ -894,6 +911,9 @@ ul p {
   width: 80%;
   }
 
+  .fonts-used {
+    width: 70%;
+  }
 
   /* VISUAL DESIGN */
   .hi-fi-testing {
