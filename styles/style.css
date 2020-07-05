@@ -246,10 +246,11 @@ body {
 .contact-section {
   padding-top: 36px;
 }
+
 .contact {
-  padding-left: 20px;
-  text-align: left;
+  width: 50%;
 }
+
 .contact-form {
   background-image: url(../images/background.png);
   border-radius: 4px;
@@ -261,8 +262,11 @@ body {
 }
 
 .contact-info {
-  grid-template-columns: 50% 50%;
+  width: 100%;
+  display: block;
+  justify-content: center;
 }
+
 
 .copyright {
   text-align: center;
@@ -397,9 +401,7 @@ li > h3 {
 }
 
 /* side margins for all pages */
-.main-container {
-  margin: auto;
-}
+
 
 .main-logo {
   width:40vw;
@@ -428,6 +430,7 @@ nav {
   color: #393939;
   font-family: proxima nova;
   font-weight: normal;
+  display: block;
 }
 
 /* paragraph text */
@@ -482,7 +485,7 @@ section {
 /* message field */
 textarea {
   border-color: inherit;
-  height: 30px;
+  height: 100px;
   width: 300px;
  }
 
@@ -635,12 +638,16 @@ ul p {
     padding-top: 72px;
   }
 
+  p, .UXD {
+    font-size: 2em;
+  }
+
   .eighty-vw {
     width: 40vw;
   }
 
   .shrink {
-    width: 45%;
+    width: 70%;
   }
 
   /* BOX -1, DESKTOP */
@@ -748,7 +755,7 @@ ul p {
 
   .graph {
     display: inline-block;
-    width: 40%;
+    width: 50%;
   }
 
   .research {
@@ -803,7 +810,14 @@ ul p {
     display: inline-block;
     width: 100%;
     height: 100%;
+  }
 
+  .flow-pad {
+    padding-bottom: 250px;
+  }
+
+  .flow-pad-2 {
+    padding-bottom: 90px;
   }
 
   .text-center {
@@ -929,22 +943,50 @@ ul p {
 
   /* HOMEPAGE */
 
+  .button-view-cs {
+    margin-top: 36px;
+  }
+
+  .intro {
+    font-size: 2em;
+  }
+  .h-two-desktop {
+    font-size: 4.66em;
+  }
+
+  .h-three-desktop {
+    font-size: 3.3em;
+    line-height: 51pt;
+  }
+
+  .hello {
+    padding-top: 0;
+  }
+
   .intro-with-pic {
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding-top: 72px;
+    padding-top: 200px;
     padding-bottom: 72px;
   }
 
   .homepage-intro {
     display: inline-block;
-    width: 40%;
+    width: 60%;
   }
 
+  .line-height {
+    line-height: 2em;
+  }
   .profile-pic {
     display: inline-block;
-    width: 40%;
+    width: 20%;
+    padding-left: 150px;
+
+  }
+
+  .prof-pic {
+    max-width: 375px;
   }
 
   .vision-case-container {
@@ -953,22 +995,39 @@ ul p {
     justify-content: center;
     padding-top: 72px;
     padding-bottom: 72px;
+    -webkit-transform:  rotate(180deg);
+    transform:  rotate(180deg);
   }
 
   .vision-case-image {
     display: inline-block;
-    width: 60%;
+    width: 50%;
+    -webkit-transform:  rotate(180deg);
+    transform:  rotate(180deg);
   }
 
   .about-vision-casestudy {
     display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+    width: 40%;
+    -webkit-transform:  rotate(180deg);
+    transform:  rotate(180deg);
+  }
+
+  /* ABOUT PAGE */
+  .salvador {
+    display: block;
+    width: 80%;
+    height: 600px;
   }
 
   /* CONTACT PAGE */
-  .contact-form {
 
+  .add-height {
+    line-height: 2em;
+    padding-bottom: 36px;
+  }
+
+  .contact-form {
     border-radius: 20px;
     font-size: 20px;
     line-height: 2em;
@@ -976,4 +1035,19 @@ ul p {
     max-width: 1000px;
     padding: 50px 30px 10px 30px;
   }
+
+  .contact {
+    width: 60%;
+  }
+
+  .textbox {
+    height: 50px;
+    width: 500px;
+  }
+
+  textarea {
+    border-color: inherit;
+    height: 100px;
+    width: 500px;
+   }
 }
