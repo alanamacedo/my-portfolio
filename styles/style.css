@@ -22,53 +22,53 @@
 }
 
 .menu-wrap .toggler {
+  cursor: pointer;
+  height: 50px;
+  opacity: 0;
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 2;
-  cursor: pointer;
   width: 50px;
-  height: 50px;
-  opacity: 0;
+  z-index: 2;
 }
 
 .menu-wrap .hamburger {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  width: 60px;
-  height: 60px;
-  padding: 1rem;
+  align-items: center;
   background: var(--primary-color);
   display: flex;
-  align-items: center;
+  height: 60px;
   justify-content: center;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+  z-index: 1;
 }
 
 /* Hamburger line */
 .menu-wrap .hamburger > div {
-  position: relative;
-  flex: none;
-  width: 100%;
-  height: 2px;
+  align-items: center;
   background-color: #9B3030;
   display: flex;
-  align-items: center;
+  flex: none;
+  height: 2px;
   justify-content: center;
+  position: relative;
   transition: all 0.4s ease;
+  width: 100%;
 }
 
 /* Hamburger Lines - Top & Bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
+  background: inherit;
   content: '';
+  height: 2px;
   position: absolute;
-  z-index: 1;
   top: -10px;
   width: 100%;
-  height: 2px;
-  background: inherit;
+  z-index: 1;
 }
 
 /* Moves Line Down */
@@ -109,43 +109,44 @@
 }
 
 .menu-wrap .menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  visibility: hidden;
-  overflow: hidden;
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 100%;
   justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+
 }
 
 .menu-wrap .menu > div {
+  align-items: center;
   background: var(--overlay-color);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
   display: flex;
   flex: none;
-  align-items: center;
+  height: 200vw;
   justify-content: center;
   transform: scale(0);
   transition: all 0.4s ease;
+  width: 200vw;
 }
 
 .menu-wrap .menu > div > div {
-  text-align: center;
   max-width: 90vw;
   max-height: 100vh;
   opacity: 0;
+  text-align: center;
   transition: opacity 0.4s ease;
 }
 
 .menu-wrap .menu > div > div > ul > li {
-  list-style: none;
   color: #fff;
   font-size: 1.5rem;
+  list-style: none;
   padding: 1rem;
 }
 
@@ -755,7 +756,7 @@ ul p {
   }
 
   .desktop-nav ul li {
-    font-size: 1rem;
+    font-size: .8rem;
     padding: 3vw;
   }
   .desktop-nav ul li a:hover {
@@ -767,9 +768,9 @@ ul p {
   }
 
   .my-logo {
-    height: 120px;
+    height: 100px;
     margin-left: 60px;
-    width: 120px;
+    width: 100px;
   }
 
   /* MAIN CONTAINER */
@@ -1058,9 +1059,9 @@ ul p {
     font-size: 4.66em;
   }
 
-  .h-three-desktop {
-    font-size: 3.3em;
-    line-height: 51pt;
+  .h-three-desktop-one {
+    font-size: 2.6em;
+    line-height: 45pt;
   }
 
   .intro {
@@ -1080,7 +1081,7 @@ ul p {
 
   .profile-pic {
     display: inline-block;
-    padding-left: 100px;
+    padding-left: 40px;
     width: 20%;
   }
 
@@ -1138,24 +1139,19 @@ ul p {
   }
 }
 
+
 @media screen and (min-width: 1200px) {
-  /* MAIN CONTAINER */
   body {
-    max-width:1400px;
     margin: 0 auto;
-  }
-
-  nav {
     max-width:1400px;
-    max-height: 126px;
+  }
+  /* NAV */
+  nav {
+    max-height: 106px;
+    max-width:1400px;
   }
 
-  .work-about-resume {
-    max-width: 113px;
-    max-height: 49px;
-    position: fixed;
-  }
-
+  /* BOX -1, DESKTOP */
   .font {
     max-width: 560px;
   }
@@ -1169,8 +1165,19 @@ ul p {
   }
 
   .tools {
-        border-right: none;
+    border-right: none;
   }
+
+  /* HOMEPAGE */
+  .h-three-desktop-two {
+    font-size: 3.3em;
+    line-height: 51pt;
+  }
+
+  .profile-pic {
+    padding-left: 100px;
+  }
+
   /* ABOUT PAGE */
   .salvador {
     display: block;
@@ -1180,5 +1187,12 @@ ul p {
   .text-margin {
     margin-left: 200px;
     margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  /* NAV */
+  .desktop-nav {
+    margin-top: -10px;
   }
 }
