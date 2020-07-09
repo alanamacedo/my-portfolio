@@ -166,10 +166,15 @@ a {
   text-decoration: none;
 }
 
+.active {
+  color: #9B3030;
+}
+
 .break {
   border-bottom: 4px solid #393939;
   width: 100px;
 }
+
 /* button style */
 .button {
   background-color: #393939;
@@ -643,6 +648,12 @@ ul p {
   .ut {
     width: 80%;
   }
+
+  /* CONTACT PAGE */
+  .sub-text {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (min-width: 771px) {
@@ -666,12 +677,9 @@ ul p {
     width: 33%;
   }
 
-  .tools {
-        border-right: none;
-  }
-
   .how {
     padding-top: 0;
+    font-size:
   }
 
   .prob-sol-header {
@@ -682,6 +690,10 @@ ul p {
   .prob-solution {
     display: flex;
     padding-bottom: 30px;
+  }
+
+  .tools {
+        border-right: none;
   }
 
   /* RESEARCH AND DISCOVERY */
@@ -724,6 +736,11 @@ ul p {
   .prof-pic {
     max-width: 250px;
   }
+
+  .sub-text {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -747,7 +764,7 @@ ul p {
   .desktop-nav {
     display: inline-block;
     float: right;
-    margin-right: 60px;
+    margin-right: 10px;
   }
 
   .desktop-nav ul {
@@ -759,6 +776,7 @@ ul p {
     font-size: .8rem;
     padding: 3vw;
   }
+
   .desktop-nav ul li a:hover {
     color: #dadada;
   }
@@ -811,8 +829,14 @@ ul p {
     width: 40vw;
   }
 
+  .font {
+    font-size: 1.2em;
+    padding-bottom: 0;
+  }
+
   .desktop-proto {
     width: 50vw;
+    max-width: 500px;
   }
 
   .logo-text-button {
@@ -825,6 +849,7 @@ ul p {
     margin-left: 0px;
     padding-top: 0px;
     width: 30vw;
+    max-width: 300px;
   }
 
   .proto-button {
@@ -846,7 +871,7 @@ ul p {
     width: 50%;
     display: inline-block;
     padding-left: 60px;
-    padding-top: 200px;
+    padding-top: 175px;
   }
 
   .proto-image .center {
@@ -874,6 +899,7 @@ ul p {
   }
 
   .how {
+    font-size: 2.33em;
     padding-top: 0;
   }
 
@@ -885,6 +911,10 @@ ul p {
   .prob-solution {
     display: flex;
     padding-bottom: 30px;
+  }
+
+  .tools {
+    border-right: none;
   }
 
   /* RESEARCH AND DISCOVERY */
@@ -1139,7 +1169,6 @@ ul p {
   }
 }
 
-
 @media screen and (min-width: 1200px) {
   body {
     margin: 0 auto;
@@ -1169,6 +1198,11 @@ ul p {
   }
 
   /* HOMEPAGE */
+
+  .font {
+    font-size: 2em;
+  }
+
   .h-three-desktop-two {
     font-size: 3.3em;
     line-height: 51pt;
