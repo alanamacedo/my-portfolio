@@ -1077,8 +1077,6 @@ ul p {
   .about-vision-casestudy, .vision-case-image {
     display: inline-block;
     width: 50%;
-    -webkit-transform:  rotate(180deg);
-    transform:  rotate(180deg);
   }
 
   .about-vision-casestudy {
@@ -1139,7 +1137,7 @@ ul p {
     justify-content: center;
     padding-top: 72px;
     padding-bottom: 72px;
-    -webkit-transform:  rotate(180deg);
+    /*-webkit-transform:  rotate(180deg);
     transform:  rotate(180deg);
   }
 
