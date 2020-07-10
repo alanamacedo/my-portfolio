@@ -156,6 +156,9 @@
   transition: color 0.4s ease;
 }
 
+body {
+  font-size: 10px;
+}
 
 a {
   color: #431313;
@@ -182,7 +185,7 @@ a {
   color: #ffff;
   display: block;
   font-family: proxima nova;
-  font-size: 1.33em;
+  font-size: 2em;
   margin-bottom: 36px;
   margin-left: auto;
   margin-right: auto;
@@ -326,39 +329,39 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #9B3030;
-  font-size: 2.83em;
+  font-size: 2.8rem;
   font-weight: 700;
 }
 
 h2 {
   color: #9B3030;
-  font-size: 2.33em;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 
 h3 {
   color: #431313;
-  font-size: 2.33em;
+  font-size: 2.3rem;
   font-weight: 400;
 }
 
 h4 {
   color: #9B3030;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 h5 {
   color: #9B3030;
-  font-size: 1.66em;
+  font-size: 1.6rem;
   font-weight: bold;
   text-align: left;
 }
 
 h6 {
   color: #431313;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -374,7 +377,7 @@ hr {
 .intro {
   color: #431313;
   font-family: freight-display-pro, serif;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   text-align: left;
@@ -401,6 +404,10 @@ label {
 
 li {
   list-style: none;
+  font-size: 1.3rem;
+  line-height: 35px;
+
+
 }
 
 /* affects h3 on index.html */
@@ -457,7 +464,7 @@ nav {
 /* paragraph text */
 p {
   font-family: proxima nova;
-  font-size: 1.33em;
+  font-size: 1.3rem;
   line-height: 1.6em;
   padding-bottom: 36px;
   padding-left: 16px;
@@ -547,17 +554,21 @@ ul p {
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 4rem;
   }
 
-  h2, h3, h4, h5 {
-    font-size: 2em;
+  h2, h3 {
+    font-size: 2.8rem;
     padding-bottom: 72px;
     padding-top: 72px;
   }
 
+  h4, h5 {
+    font-size: 2rem;
+  }
+
   p, .UXD {
-    font-size: 1.33em;
+    font-size: 2em;
   }
 
   .shrink {
@@ -651,8 +662,8 @@ ul p {
 
   /* CONTACT PAGE */
   .sub-text {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
@@ -679,7 +690,7 @@ ul p {
 
   .how {
     padding-top: 0;
-    font-size:
+    font-size: 2.3rem;
   }
 
   .prob-sol-header {
@@ -751,8 +762,8 @@ ul p {
   }
 
   .margin {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 
   .nav {
@@ -793,31 +804,31 @@ ul p {
 
   /* MAIN CONTAINER */
   .eighty-vw {
-    width: 40vw;
+    width: 30vw;
   }
 
   h1 {
-    font-size: 6em;
+    font-size: 4rem;
   }
 
-  h2 {
-    font-size: 2.8em;
+  h2, h3{
+    font-size: 3rem;
     padding-bottom: 72px;
     padding-top: 72px;
   }
 
-  h3, h4, h5 {
-    font-size: 3em;
+  h4, h5 {
+    font-size: 2.5rem;
     padding-bottom: 72px;
     padding-top: 72px;
   }
 
   p, .UXD {
-    font-size: 2em;
+    font-size: 1.4rem;
   }
 
   .shrink {
-    width: 70%;
+    width: 60%;
   }
 
   /* BOX -1, DESKTOP */
@@ -826,18 +837,19 @@ ul p {
   }
 
   .box-1 p {
-    width: 40vw;
+    width: 30vw;
   }
 
   .font {
-    font-size: 1.2em;
+    font-size: 1.4rem;
     padding-bottom: 0;
   }
 
   .desktop-proto {
-    width: 50vw;
-    max-width: 500px;
+    width: 40vw;
+    max-width: 400px;
   }
+
 
   .logo-text-button {
     display: inline-block;
@@ -898,10 +910,6 @@ ul p {
     width: 33%;
   }
 
-  .how {
-    font-size: 2.33em;
-    padding-top: 0;
-  }
 
   .prob-sol-header {
     padding: 0;
@@ -923,9 +931,14 @@ ul p {
     width: 50%;
   }
 
+  #competitors {
+    width: 40vw;
+  }
+
+
   .laura, .alex, .jess {
     display: inline-block;
-    padding: 50px;
+    padding: 20px;
     width: 30%;
   }
 
@@ -1086,16 +1099,17 @@ ul p {
   }
 
   .h-two-desktop {
-    font-size: 4.66em;
+    font-size: 4rem;
   }
 
   .h-three-desktop-one {
-    font-size: 2.6em;
+    font-size: 3rem;
     line-height: 45pt;
   }
 
+
   .intro {
-    font-size: 2em;
+    font-size: 1.6rem;
   }
 
   .intro-with-pic {
@@ -1130,16 +1144,8 @@ ul p {
   }
 
   /* ABOUT PAGE */
-  .salvador {
-    display: block;
-    height: 600px;
-    width: 80%;
-  }
 
-  .text-margin {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+
 
   /* CONTACT PAGE */
 
@@ -1199,28 +1205,25 @@ ul p {
 
   /* HOMEPAGE */
 
-  .font {
-    font-size: 2em;
-  }
 
-  .h-three-desktop-two {
-    font-size: 3.3em;
+
+  /*.h-three-desktop-two {
+    font-size: 2.8em;
     line-height: 51pt;
-  }
+  }*/
 
   .profile-pic {
     padding-left: 100px;
   }
 
   /* ABOUT PAGE */
-  .salvador {
-    display: block;
-    height: 800px;
-    width: 80%;
+
+  .about-top {
+    padding-top: 200px;
   }
   .text-margin {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
