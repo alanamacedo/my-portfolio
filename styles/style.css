@@ -166,7 +166,7 @@ html {
 a {
   color: #431313;
   font-family: freight-display-pro, serif;
-  font-size: 2.33em;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
@@ -192,7 +192,7 @@ a {
   margin-bottom: 36px;
   margin-left: auto;
   margin-right: auto;
-  padding: .5em;
+  padding: 1rem;
   text-align: center;
   text-decoration: none;
   width: 325px;
@@ -205,14 +205,15 @@ a {
   color: #ffff;
   cursor: pointer;
   display: block;
-  font-family: proxima nova;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
   margin-bottom: 36px;
   margin-left: auto;
   margin-right: auto;
+  padding: 1rem;
   text-align: center;
   text-decoration: none;
-  height: 50px;
+  height: 60px;
   width: 300px;
 }
 
@@ -262,6 +263,7 @@ body {
 /* Contact form */
 .contact-section {
   padding-top: 36px;
+  margin-bottom: 36px;
 }
 
 .contact-form {
@@ -313,9 +315,17 @@ form {
 
 }
 
+/* changes index h5 to freight family */
+.freight {
+  font-family: 'freight-display-pro', serif;
+  color: #431313;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
 
 /* hi, i'm alana on index.html */
 .hello {
+  font-size: 1.8rem;
   padding-bottom: 16px;
   padding-top: 100px;
   text-align: left;
@@ -381,7 +391,7 @@ hr {
 .intro {
   color: #431313;
   font-family: freight-display-pro, serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   text-align: left;
@@ -505,6 +515,17 @@ section {
 
 .shrink {
   width: 40%;
+}
+
+/* in contact page */
+.sub-text {
+  font-size: 1.125rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
+  max-width: 300px;
+  padding: 0px;
 }
 
 /* social media icon padding */
@@ -682,16 +703,31 @@ ul p {
   }
 
   /* HOMEPAGE */
+
+  .hello {
+    font-size: 1.8rem;
+  }
   .vision-index-style {
     color: #9B3030;
     font-weight: 700;
   }
 
   /* CONTACT PAGE */
-  .sub-text {
-    padding-left: 100px;
-    padding-right: 100px;
+  .flexible {
+    display: flex;
+    justify-content: center;
   }
+
+  .sub-text {
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 300px;
+  }
+
+  .end {
+    padding-bottom: 36px;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -778,6 +814,7 @@ ul p {
 
   .hello {
     padding-top: 0;
+    font-size: 2.2rem;
   }
 
   .homepage-intro {
@@ -808,9 +845,16 @@ ul p {
   }
 
   .sub-text {
-    padding-left: 120px;
-    padding-right: 100px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
   }
+
+  .end {
+    padding-bottom: 72px;
+  }
+
 }
 
 @media screen and (min-width: 991px) {
@@ -821,6 +865,7 @@ ul p {
   }
 
   #proto-button {
+    font-family: 'Nunito', sans-serif;
     margin-top: 0;
   }
 
@@ -905,7 +950,7 @@ ul p {
 
   .desktop-proto {
     width: 40vw;
-    max-width: 400px;
+    max-width: 450px;
   }
 
 
@@ -927,11 +972,11 @@ ul p {
     border-radius: 8px;
     color: #ffff;
     display: block;
-    font-family: proxima nova;
+    font-family: 'Nunito' sans-serif;
     font-size: 1rem;
     margin-bottom: 36px;
     margin-left: 0;
-    padding: .5em;
+    padding: 1rem;
     text-align: center;
     text-decoration: none;
     width: 300px;
@@ -1131,6 +1176,14 @@ ul p {
     text-align: center;
   }
 
+  .end {
+    padding-bottom: 72px;
+  }
+
+  .bottom-case {
+    margin-left: auto;
+    margin-right: auto;
+  }
   /* HOMEPAGE */
   .about-vision-casestudy, .vision-case-image {
     display: inline-block;
@@ -1147,6 +1200,7 @@ ul p {
 
   .hello {
     padding-top: 0;
+    font-size: 2.4rem;
   }
 
   .homepage-intro {
@@ -1190,7 +1244,9 @@ ul p {
   }
   /* ABOUT PAGE */
 
-
+  .intro {
+    font-size: 1.2rem;
+  }
 
   /* CONTACT PAGE */
 
@@ -1208,6 +1264,12 @@ ul p {
     padding: 50px 30px 10px 30px;
   }
 
+  .sub-text {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+  }
   textarea {
     border-color: inherit;
     height: 100px;
