@@ -157,7 +157,7 @@
 }
 
 body {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 a {
@@ -185,7 +185,7 @@ a {
   color: #ffff;
   display: block;
   font-family: proxima nova;
-  font-size: 2em;
+  font-size: 1rem;
   margin-bottom: 36px;
   margin-left: auto;
   margin-right: auto;
@@ -203,7 +203,7 @@ a {
   cursor: pointer;
   display: block;
   font-family: proxima nova;
-  font-size: 1.33em;
+  font-size: 1rem;
   margin-bottom: 36px;
   margin-left: auto;
   margin-right: auto;
@@ -217,6 +217,7 @@ a {
 body {
   background-color: #FFFEFC;
 }
+
 .box-1 {
   width: 100%;
 }
@@ -329,39 +330,39 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #9B3030;
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 h2 {
   color: #9B3030;
-  font-size: 3rem;
+  font-size: 1.625rem;
   font-weight: 700;
 }
 
 
 h3 {
   color: #431313;
-  font-size: 2.3rem;
+  font-size: 1.375rem;
   font-weight: 400;
 }
 
 h4 {
   color: #9B3030;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
 h5 {
   color: #9B3030;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: bold;
   text-align: left;
 }
 
 h6 {
   color: #431313;
-  font-size: 1rem;
+  font-size: .75rem;
   font-weight: 400;
 }
 
@@ -464,8 +465,8 @@ nav {
 /* paragraph text */
 p {
   font-family: proxima nova;
-  font-size: 1.3rem;
-  line-height: 1.6em;
+  font-size: 1rem;
+  line-height: 1.25em;
   padding-bottom: 36px;
   padding-left: 16px;
   padding-right: 16px;
@@ -553,8 +554,8 @@ ul p {
     width: 40vw;
   }
 
-  h1 {
-    font-size: 4rem;
+  /*h1 {
+    font-size: rem;
   }
 
   h2, h3 {
@@ -568,8 +569,8 @@ ul p {
   }
 
   p, .UXD {
-    font-size: 2em;
-  }
+    font-size: 1.6em;
+  }*/
 
   .shrink {
     width: 50%;
@@ -667,7 +668,24 @@ ul p {
   }
 }
 
-@media screen and (min-width: 771px) {
+@media screen and (min-width: 768px) {
+  /* MAIN CONTAINER */
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.125rem;
+  }
+
 
   /* ROLES, DELIVERABLES, TOOLS */
   .accomplished {
@@ -749,7 +767,7 @@ ul p {
   }
 
   .sub-text {
-    padding-left: 100px;
+    padding-left: 120px;
     padding-right: 100px;
   }
 }
@@ -808,6 +826,21 @@ ul p {
   }
 
   h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.125rem;
+  }
+/*  h1 {
     font-size: 4rem;
   }
 
@@ -821,11 +854,11 @@ ul p {
     font-size: 2.5rem;
     padding-bottom: 72px;
     padding-top: 72px;
-  }
+  }*/
 
-  p, .UXD {
-    font-size: 1.4rem;
-  }
+  /*p, .UXD {
+    font-size: 1.6rem;
+  }*/
 
   .shrink {
     width: 60%;
@@ -840,10 +873,10 @@ ul p {
     width: 30vw;
   }
 
-  .font {
+  /*.font {
     font-size: 1.4rem;
     padding-bottom: 0;
-  }
+  }*/
 
   .desktop-proto {
     width: 40vw;
@@ -870,7 +903,7 @@ ul p {
     color: #ffff;
     display: block;
     font-family: proxima nova;
-    font-size: 1.33em;
+    font-size: 1rem;
     margin-bottom: 36px;
     margin-left: 0;
     padding: .5em;
@@ -1096,19 +1129,23 @@ ul p {
     width: 60%;
   }
 
-  .h-two-desktop {
+  .home-proto {
+    width: 100%;
+  }
+
+  /*.h-two-desktop {
     font-size: 4rem;
   }
 
   .h-three-desktop-one {
     font-size: 3rem;
     line-height: 45pt;
-  }
+  }*/
 
 
-  .intro {
+  /*.intro {
     font-size: 1.6rem;
-  }
+  }*/
 
   .intro-with-pic {
     display: flex;
@@ -1117,18 +1154,21 @@ ul p {
     width: 100%;
   }
 
-  .line-height {
+  /*.line-height {
     line-height: 2em;
-  }
-
+  }*/
   .profile-pic {
     display: inline-block;
     padding-left: 40px;
     width: 20%;
   }
 
-  .prof-pic {
-    max-width: 375px;
+  /*.prof-pic {
+    max-width: 300px;
+  }*/
+
+  .vision-case-image {
+    float: right;
   }
 
   .vision-case-container {
