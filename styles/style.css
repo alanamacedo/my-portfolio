@@ -467,7 +467,7 @@ nav {
 
 /* paragraph text */
 p {
-  font-family: proxima nova;
+  font-family: 'proxima-nova', sans-serif;
   font-size: 1rem;
   line-height: 1.45em;
   padding-bottom: 36px;
