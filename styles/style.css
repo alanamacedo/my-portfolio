@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 18px;
+}
+
 .desktop-nav {
   display: none;
 }
@@ -156,9 +160,8 @@
   transition: color 0.4s ease;
 }
 
-body {
-  font-size: 16px;
-}
+
+
 
 a {
   color: #431313;
@@ -362,7 +365,7 @@ h5 {
 
 h6 {
   color: #431313;
-  font-size: .75rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -405,7 +408,7 @@ label {
 
 li {
   list-style: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 35px;
 
 
@@ -413,7 +416,7 @@ li {
 
 /* affects h3 on index.html */
 li > h3 {
-  font-size: 1.6em;
+  /*font-size: 1.6em;*/
   font-weight: 400;
   text-align: left;
   padding: 0px;
@@ -466,7 +469,7 @@ nav {
 p {
   font-family: proxima nova;
   font-size: 1rem;
-  line-height: 1.25em;
+  line-height: 1.45em;
   padding-bottom: 36px;
   padding-left: 16px;
   padding-right: 16px;
@@ -510,6 +513,34 @@ section {
   height: 80px;
   width: 80px;
 }
+/* user stories table */
+table {
+  display: table;
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+table tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+th {
+  display: table-cell;
+  background-color: #B8B8B8;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+ }
+
+ th, td {
+  padding: .5rem;
+  border: 0px solid #ccc;
+}
+
+tr {
+  font-family: proxima nova;
+}
 
 /* message field */
 textarea {
@@ -547,6 +578,10 @@ ul p {
   width: 100%;
 }
 
+.vision-index-style {
+  color: #9B3030;
+  font-weight: 700;
+}
 
 @media screen and (min-width: 575px) {
   /* MAIN CONTAINER */
@@ -554,35 +589,20 @@ ul p {
     width: 40vw;
   }
 
-  /*h1 {
-    font-size: rem;
-  }
-
-  h2, h3 {
-    font-size: 2.8rem;
-    padding-bottom: 72px;
-    padding-top: 72px;
-  }
-
-  h4, h5 {
-    font-size: 2rem;
-  }
-
-  p, .UXD {
-    font-size: 1.6em;
-  }*/
-
   .shrink {
     width: 50%;
   }
 
   /* BOX -1, IPAD */
+
+
   .project-name {
     display: flex;
     justify-content: center;
     padding-top: 200px;
     width: 60vw;
   }
+
 
   /* RESEARCH AND DISCOVERY */
   .chart {
@@ -661,6 +681,12 @@ ul p {
     width: 80%;
   }
 
+  /* HOMEPAGE */
+  .vision-index-style {
+    color: #9B3030;
+    font-weight: 700;
+  }
+
   /* CONTACT PAGE */
   .sub-text {
     padding-left: 100px;
@@ -669,6 +695,14 @@ ul p {
 }
 
 @media screen and (min-width: 768px) {
+
+
+
+  .smaller-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
   /* MAIN CONTAINER */
   h1 {
     font-size: 2.5rem;
@@ -685,6 +719,7 @@ ul p {
   h4 {
     font-size: 1.125rem;
   }
+
 
 
   /* ROLES, DELIVERABLES, TOOLS */
@@ -736,6 +771,11 @@ ul p {
   }
 
   /* HOMEPAGE */
+
+  .desktop-proto {
+    width: 80vw;
+  }
+
   .hello {
     padding-top: 0;
   }
@@ -752,8 +792,9 @@ ul p {
     width: 100%;
   }
 
-  .line-height {
-    line-height: 2em;
+  .vision-index-style {
+    color: #9B3030;
+    font-weight: 700;
   }
 
   .profile-pic {
@@ -779,11 +820,19 @@ ul p {
     margin-top: 72px;
   }
 
-  .margin {
-    margin-left: 250px;
-    margin-right: 250px;
+  #proto-button {
+    margin-top: 0;
   }
 
+  .margin {
+    margin-left: 225px;
+    margin-right: 225px;
+  }
+
+  .smaller-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
   .nav {
     margin-left: 60px;
     margin-right: 60px;
@@ -838,27 +887,8 @@ ul p {
   }
 
   h4 {
-    font-size: 1.125rem;
+    font-size: 1.75rem;
   }
-/*  h1 {
-    font-size: 4rem;
-  }
-
-  h2, h3{
-    font-size: 3rem;
-    padding-bottom: 72px;
-    padding-top: 72px;
-  }
-
-  h4, h5 {
-    font-size: 2.5rem;
-    padding-bottom: 72px;
-    padding-top: 72px;
-  }*/
-
-  /*p, .UXD {
-    font-size: 1.6rem;
-  }*/
 
   .shrink {
     width: 60%;
@@ -872,11 +902,6 @@ ul p {
   .box-1 p {
     width: 30vw;
   }
-
-  /*.font {
-    font-size: 1.4rem;
-    padding-bottom: 0;
-  }*/
 
   .desktop-proto {
     width: 40vw;
@@ -971,7 +996,7 @@ ul p {
 
   .laura, .alex, .jess {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     width: 30%;
   }
 
@@ -1133,20 +1158,6 @@ ul p {
     width: 100%;
   }
 
-  /*.h-two-desktop {
-    font-size: 4rem;
-  }
-
-  .h-three-desktop-one {
-    font-size: 3rem;
-    line-height: 45pt;
-  }*/
-
-
-  /*.intro {
-    font-size: 1.6rem;
-  }*/
-
   .intro-with-pic {
     display: flex;
     padding-top: 200px;
@@ -1154,18 +1165,12 @@ ul p {
     width: 100%;
   }
 
-  /*.line-height {
-    line-height: 2em;
-  }*/
   .profile-pic {
     display: inline-block;
-    padding-left: 40px;
+    float: right;
     width: 20%;
   }
 
-  /*.prof-pic {
-    max-width: 300px;
-  }*/
 
   .vision-case-image {
     float: right;
@@ -1177,10 +1182,12 @@ ul p {
     justify-content: center;
     padding-top: 72px;
     padding-bottom: 72px;
-    /*-webkit-transform:  rotate(180deg);
-    transform:  rotate(180deg);
   }
 
+  .vision-index-style {
+    color: #9B3030;
+    font-weight: 700;
+  }
   /* ABOUT PAGE */
 
 
@@ -1224,6 +1231,12 @@ ul p {
     max-width:1400px;
   }
 
+  .big-margin {
+    margin-left: 225px;
+    margin-right: 225px;
+  }
+
+
   /* BOX -1, DESKTOP */
   .font {
     max-width: 560px;
@@ -1242,23 +1255,15 @@ ul p {
   }
 
   /* HOMEPAGE */
-
-
-
-  /*.h-three-desktop-two {
-    font-size: 2.8em;
-    line-height: 51pt;
-  }*/
-
   .profile-pic {
     padding-left: 100px;
   }
 
   /* ABOUT PAGE */
-
   .about-top {
     padding-top: 200px;
   }
+
   .text-margin {
     margin-left: 0px;
     margin-right: 0px;
