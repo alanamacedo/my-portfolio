@@ -458,7 +458,7 @@ nav {
 /* contact form text styling */
 .name, .email, .message {
   color: #393939;
-  font-family: proxima nova;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
   display: flex;
   justify-content: center;
@@ -467,7 +467,7 @@ nav {
 
 /* paragraph text */
 p {
-  font-family: 'proxima-nova', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.45em;
   padding-bottom: 36px;
