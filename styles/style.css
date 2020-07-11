@@ -942,6 +942,7 @@ ul p {
   /* BOX -1, DESKTOP */
   .box-1 {
     background-color: #FFFBF6;
+    display: flex;
   }
 
   .box-1 p {
@@ -955,8 +956,8 @@ ul p {
 
 
   .logo-text-button {
-    display: inline-block;
-    width: 45%;
+    width: 50%;
+    vertical-align: top;
   }
 
   .project-name {
@@ -984,9 +985,6 @@ ul p {
 
   .proto-image {
     width: 50%;
-    display: inline-block;
-    padding-left: 60px;
-    padding-top: 175px;
   }
 
   .proto-image .center {
