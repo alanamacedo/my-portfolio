@@ -246,7 +246,7 @@ body {
   font-family: freight-display-pro, serif;
   color: #431313;
 }
-/* Competitor Icons */
+/* Competitor and social-media Icons */
  .footer-icons{
   display: flex;
   justify-content: center;
@@ -260,6 +260,8 @@ body {
 #competitors {
   width: 60vw;
 }
+
+
 /* Contact form */
 .contact-section {
   padding-top: 36px;
@@ -294,7 +296,7 @@ body {
 }
 
 .desktop-proto {
-  width: 100vw;
+  width: 100%;
 }
 
 /* mindmap, listmaking, color palette, sketches, flows, preference tests, type logo, wireframes*/
@@ -379,6 +381,10 @@ h6 {
   font-weight: 400;
 }
 
+#home-proto {
+  width: 100vw;
+}
+
 /* line */
 hr {
   border-bottom: 4px solid #393939;
@@ -414,6 +420,10 @@ input {
 
 label {
   display: inline-block;
+}
+
+.large-image {
+  width: 80%;
 }
 
 li {
@@ -481,8 +491,8 @@ p {
   font-size: 1rem;
   line-height: 1.45em;
   padding-bottom: 36px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .profile-pic {
@@ -531,8 +541,8 @@ section {
 /* social media icon padding */
 .social-media {
   padding:10px;
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
 }
 /* user stories table */
 table {
@@ -599,9 +609,14 @@ ul p {
   width: 100%;
 }
 
-.vision-index-style {
+.enlarge {
   color: #9B3030;
   font-weight: 700;
+}
+
+/* ABOUT PAGE */
+.about-top {
+  padding-top: 100px;
 }
 
 @media screen and (min-width: 575px) {
@@ -704,6 +719,11 @@ ul p {
 
   /* HOMEPAGE */
 
+  #button-view-cs {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
   .hello {
     font-size: 1.8rem;
   }
@@ -728,6 +748,11 @@ ul p {
     padding-bottom: 36px;
   }
 
+  /* ABOUT PAGE */
+  .about-top {
+    padding-top: 100px;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -737,6 +762,12 @@ ul p {
   .smaller-margin {
     margin-left: 100px;
     margin-right: 100px;
+  }
+
+  .social-media {
+    padding:10px;
+    height: 70px;
+    width: 70px;
   }
 
   /* MAIN CONTAINER */
@@ -756,6 +787,11 @@ ul p {
     font-size: 1.125rem;
   }
 
+
+  /* BOX-1*/
+  .logo-text-button {
+    padding-top: 150px;
+  }
 
 
   /* ROLES, DELIVERABLES, TOOLS */
@@ -808,7 +844,11 @@ ul p {
 
   /* HOMEPAGE */
 
-  .desktop-proto {
+  #button-view-cs {
+    margin-left: 10px;
+  }
+
+  #home-proto {
     width: 80vw;
   }
 
@@ -855,6 +895,10 @@ ul p {
     padding-bottom: 72px;
   }
 
+  /* ABOUT PAGE */
+  .about-top {
+    padding-top: 150px;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -874,10 +918,7 @@ ul p {
     margin-right: 225px;
   }
 
-  .smaller-margin {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+
   .nav {
     margin-left: 60px;
     margin-right: 60px;
@@ -937,59 +978,6 @@ ul p {
 
   .shrink {
     width: 60%;
-  }
-
-  /* BOX -1, DESKTOP */
-  .box-1 {
-    background-color: #FFFBF6;
-    display: flex;
-  }
-
-  .box-1 p {
-    width: 30vw;
-  }
-
-  .desktop-proto {
-    width: 40vw;
-    max-width: 450px;
-  }
-
-
-  .logo-text-button {
-    width: 50%;
-    vertical-align: top;
-  }
-
-  .project-name {
-    display: flex;
-    margin-left: 0px;
-    padding-top: 0px;
-    width: 30vw;
-    max-width: 300px;
-  }
-
-  .proto-button {
-    background-color: #393939;
-    border-radius: 8px;
-    color: #ffff;
-    display: block;
-    font-family: 'Nunito' sans-serif;
-    font-size: 1rem;
-    margin-bottom: 36px;
-    margin-left: 0;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-    width: 300px;
-  }
-
-  .proto-image {
-    width: 50%;
-  }
-
-  .proto-image .center {
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 
   /* ROLES, DELIVERABLES, TOOLS */
@@ -1182,64 +1170,7 @@ ul p {
     margin-left: auto;
     margin-right: auto;
   }
-  /* HOMEPAGE */
-  .about-vision-casestudy, .vision-case-image {
-    display: inline-block;
-    width: 50%;
-  }
 
-  .about-vision-casestudy {
-    width: 40%;
-  }
-
-  .button-view-cs {
-    margin-top: 36px;
-  }
-
-  .hello {
-    padding-top: 0;
-    font-size: 2.4rem;
-  }
-
-  .homepage-intro {
-    display: inline-block;
-    width: 60%;
-  }
-
-  .home-proto {
-    width: 100%;
-  }
-
-  .intro-with-pic {
-    display: flex;
-    padding-top: 200px;
-    padding-bottom: 72px;
-    width: 100%;
-  }
-
-  .profile-pic {
-    display: inline-block;
-    float: right;
-    width: 20%;
-  }
-
-
-  .vision-case-image {
-    float: right;
-  }
-
-  .vision-case-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .vision-index-style {
-    color: #9B3030;
-    font-weight: 700;
-  }
   /* ABOUT PAGE */
 
   .intro {
@@ -1278,6 +1209,186 @@ ul p {
     height: 50px;
     width: 500px;
   }
+
+  /* HOMEPAGE */
+
+
+  #button-view-cs {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* BOX -1, DESKTOP */
+
+  .box-1 {
+    background-color: #FFFBF6;
+  }
+
+  .desktop-proto {
+    width: 50vw;
+    max-width: 450px;
+  }
+
+  .font {
+    position: relative;
+  }
+
+  .logo-text-button {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 175px;
+  }
+
+  .project-name {
+    display: flex;
+    margin-left: 0px;
+    padding-top: 0px;
+    width: 30vw;
+    max-width: 300px;
+  }
+
+  .proto-button {
+    background-color: #393939;
+    border-radius: 8px;
+    color: #ffff;
+    display: block;
+    font-family: 'Nunito' sans-serif;
+    font-size: 1rem;
+    margin-bottom: 60px;
+    margin-left: 0;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+  }
+
+  .proto-image {
+    width: 50%;
+    display: inline-block;
+    padding-left: 60px;
+    padding-top: 175px;
+  }
+
+  .proto-image .center {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+
+  /* ROLES, DELIVERABLES, TOOLS */
+  .accomplished {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
+    padding-top: 72px;
+    width: 100%;
+  }
+
+  .answer {
+    width: 50%;
+  }
+
+  .deliverables, .roles, .tools {
+    border-right: 1px solid black;
+    display: inline-block;
+    width: 33%;
+  }
+
+
+  .prob-sol-header {
+    padding: 0;
+    width: 50%;
+  }
+
+  .prob-solution {
+    display: flex;
+    padding-bottom: 30px;
+  }
+
+  .tools {
+    border-right: none;
+  }
+
+  #home-proto {
+    margin: 0;
+    padding-bottom: 36px;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+}
+@media screen and (min-width: 1127px) {
+  /* HOMEPAGE */
+  .about-vision-casestudy, .vision-case-image {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .about-vision-casestudy {
+    width: 40%;
+  }
+
+  #button-view-cs {
+    margin-top: 36px;
+  }
+
+  .hello {
+    padding-top: 0;
+    font-size: 2.4rem;
+  }
+
+  .homepage-intro {
+    display: inline-block;
+    width: 60%;
+  }
+
+  #home-proto {
+    width: 100%;
+    margin-right: 0;
+    vertical-align: top;
+  }
+
+  .intro-with-pic {
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 72px;
+    width: 100%;
+  }
+
+  .profile-pic {
+    display: inline-block;
+    float: right;
+    width: 20%;
+  }
+
+
+  .vision-case-image {
+    float: right;
+    margin-right: 0;
+  }
+
+  .vision-case-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+  }
+
+  .vision-index-style {
+    color: #9B3030;
+    font-weight: 700;
+  }
+
+  #button-view-cs {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .project {
+    padding-top: 36px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1291,11 +1402,6 @@ ul p {
     max-width:1400px;
   }
 
-  .big-margin {
-    margin-left: 225px;
-    margin-right: 225px;
-  }
-
 
   /* BOX -1, DESKTOP */
   .font {
@@ -1303,11 +1409,19 @@ ul p {
   }
 
   .desktop-proto {
-    max-width: 700px;
+    max-width: 490px;
+  }
+
+  .logo-text-button {
+    padding-top: 200px;
   }
 
   .project-name {
     max-width: 420px;
+  }
+
+  .proto-button {
+    margin-bottom: 72px;
   }
 
   .tools {
@@ -1316,7 +1430,19 @@ ul p {
 
   /* HOMEPAGE */
   .profile-pic {
-    padding-left: 100px;
+    padding-left: 130px;
+  }
+
+  #button-view-cs {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+
+  #home-proto {
+    padding-top: 0;
+    padding-bottom: 0;
+
   }
 
   /* ABOUT PAGE */
@@ -1330,6 +1456,52 @@ ul p {
   }
 }
 
+@media screen and (min-width: 1300px) {
+
+
+  #button-view-cs {
+    margin-left: 0;
+  }
+
+  .logo-text-button {
+    padding-top: 250px;
+  }
+  .desktop-proto {
+    max-width: 590px;
+  }
+  .project-name {
+    padding-bottom: 36px;
+  }
+
+  #home-proto {
+    padding-top: 0;
+
+  }
+}
+
+@media screen and (min-width: 1375px) {
+  .big-margin {
+    margin-left: 225px;
+    margin-right: 225px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+
+  .font {
+    padding-bottom: 45px;
+  }
+  .proto-button {
+    margin-bottom: 72px;
+  }
+  #home-proto {
+    padding-top: 0;
+    max-width: 490px;
+  }
+  .desktop-proto {
+    max-width: 590px;
+  }
+}
 @media screen and (min-width: 1500px) {
   /* NAV */
   .desktop-nav {
