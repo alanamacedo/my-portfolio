@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>My Contact Page</title>
   <meta charset="UTF-8">
@@ -13,102 +14,109 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-    <!-- My Fonts -->
+  <!-- My Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/bub7yri.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171911028-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171911028-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-171911028-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171911028-1');
+  </script>
 </head>
-  <body>
-    <nav>
-      <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
+
+<body>
+  <nav>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger">
+        <div></div>
+      </div>
+      <div class="menu">
+        <div>
           <div>
-            <div>
-              <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="https://drive.google.com/file/d/1v349ufAJdmR_fLsZR1YRuORnOvLvcJYR/view?usp=sharing" target="_blank">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="https://drive.google.com/file/d/1v349ufAJdmR_fLsZR1YRuORnOvLvcJYR/view?usp=sharing" target="_blank">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="desktop-nav">
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="https://drive.google.com/file/d/1v349ufAJdmR_fLsZR1YRuORnOvLvcJYR/view?usp=sharing" target="_blank">Resume</a></li>
-          <li><a class="active" href="contact.html">Contact</a></li>
-        </ul>
+    </div>
+    <div class="desktop-nav">
+      <ul>
+        <li><a href="index.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://drive.google.com/file/d/1v349ufAJdmR_fLsZR1YRuORnOvLvcJYR/view?usp=sharing" target="_blank">Resume</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <header>
+      <a href="index.html">
+        <img src="images/my-logo.png" alt="images/my-logo.png" class="my-logo"></a>
+    </header>
+  </nav>
+  <div class="contact-section">
+    <div class="contact-form">
+      <div>
+        <h2 class="add-height"> Want to get in touch?</h2>
+        <!--<p class="sub-text">Send me a message below, I would love to hear from you!</p>-->
       </div>
-      <header>
-        <a href="index.html">
-          <img src="images/my-logo.png" alt="images/my-logo.png" class="my-logo"></a>
-      </header>
-    </nav>
-    <div class="contact-section">
-      <div class="contact-form">
-        <div>
-          <h2 class="add-height"> Want to get in touch?</h2>
-          <!--<p class="sub-text">Send me a message below, I would love to hear from you!</p>-->
-        </div>
-        <!-- CONTACT FORM -->
-        <form action="https://formspree.io/xknqvrkg" method="POST" target="_blank">
+      <!-- CONTACT FORM -->
+      <form action="https://formspree.io/xknqvrkg" method="POST" target="_blank">
         <div class="flexible">
           <p class="sub-text">Send me a message below, I would love to hear from you!</p>
         </div>
-          <div class="name">
-            <div class="block">
-              <div class="contact-info">
-                <div class="contact">Full Name:</div>
-                <input class="textbox" type="text" name="name">
-              </div>
+        <div class="name">
+          <div class="block">
+            <div class="contact-info">
+              <div class="contact">Full Name:</div>
+              <input class="textbox" type="text" name="name">
             </div>
           </div>
-          <div class="email">
-            <div class="block">
-              <div class="contact-info">
-                <div class="contact">Email:</div>
-                <input class="textbox" type="text" name="_replyto">
-              </div>
+        </div>
+        <div class="email">
+          <div class="block">
+            <div class="contact-info">
+              <div class="contact">Email:</div>
+              <input class="textbox" type="text" name="_replyto">
             </div>
           </div>
-          <div class="message">
-            <div class="block">
-              <div class="contact-info">
-                <div class="contact">Message:</div>
-                <textarea name="message"></textarea>
-              </div>
+        </div>
+        <div class="message">
+          <div class="block">
+            <div class="contact-info">
+              <div class="contact">Message:</div>
+              <textarea name="message"></textarea>
             </div>
           </div>
-          <input type="submit" id="button" value="SEND MESSAGE">
-        </form>
-      </div>
+        </div>
+        <input type="submit" id="button" value="SEND MESSAGE">
+      </form>
     </div>
-    <footer>
-      <h3 class="enlarge">Let's Connect!</h3>
-      <div class="footer-icons">
-        <a href="https://www.linkedin.com/in/alana-macedo-b3347015b/" target="_blank">
-          <img src="images/linkedin.png" alt="images/linked-in-icon.png" class="social-media"></a>
-        <a href="https://github.com/alanamacedo" target="_blank">
-          <img src="images/github.png" alt="images/facebook-icon.png" class="social-media fb"></a>
-        <a href="contact.html">
+  </div>
+  <footer>
+    <h3 class="enlarge">Let's Connect!</h3>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/alana-macedo-b3347015b/" target="_blank">
+        <img src="images/linkedin.png" alt="images/linked-in-icon.png" class="social-media"></a>
+      <a href="https://github.com/alanamacedo" target="_blank">
+        <img src="images/github.png" alt="images/facebook-icon.png" class="social-media fb"></a>
+      <a href="contact.html">
         <img src="images/mail.png" alt="images/email-icon.png" class="social-media"></a>
-      </div>
-      <h6 class="copyright">© Alana Macedo 2020</h6>
-    </footer>
-  </body>
+    </div>
+    <h6 class="copyright">© Alana Macedo 2020</h6>
+  </footer>
+</body>
+
 </html>

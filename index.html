@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>My Home Page</title>
   <meta charset="UTF-8">
@@ -19,91 +20,102 @@
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171911028-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171911028-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-171911028-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171911028-1');
+  </script>
 </head>
-  <body>
-    <nav>
-      <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
+
+<body>
+  <nav>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger">
+        <div></div>
+      </div>
+      <div class="menu">
+        <div>
           <div>
-            <div>
-              <ul>
-                <li><a href="#vision-case-container">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="https://drive.google.com/file/d/1v349ufAJdmR_fLsZR1YRuORnOvLvcJYR/view?usp=sharing" target="_blank">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
+            <ul>
+              <li><a href="#vision-case-container">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="https://drive.google.com/file/d/1v349ufAJdmR_fLsZR1YRuORnOvLvcJYR/view?usp=sharing" target="_blank">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="desktop-nav">
+      <ul>
+        <li><a class="active" href="index.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://drive.google.com/file/d/1v349ufAJdmR_fLsZR1YRuORnOvLvcJYR/view?usp=sharingg" target="_blank">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <header>
+      <a href="index.html">
+        <img src="images/my-logo.png" alt="images/my-logo.png" class="my-logo"></a>
+    </header>
+  </nav>
+  <div class="main-container">
+    <div class="big-margin smaller-margin">
+      <div class="intro-with-pic">
+        <div class="homepage-intro">
+          <h2 class="hello"> Hi, I'm Alana!</h2>
+          <ul>
+            <li>
+              <h3>A Product Designer</h3>
+            </li>
+            <li>
+              <h3>based in San Francisco.</h3>
+            </li>
+          </ul>
+          <p class="intro">Driven by research and human connection, I solve problems by addressing user needs and designing for a better future.</p>
+        </div>
+        <div class="profile-pic">
+          <img src="images/profile-picture.png" alt="" class="prof-pic">
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="vision-case-container">
+        <div class="big-margin smaller-margin">
+          <div class="vision-case-image">
+            <img src="images/desktop-proto.png" alt="images/desktop-proto.png" id="home-proto" class="center">
+          </div>
+          <div class="about-vision-casestudy">
+            <h3 class="left project enlarge">Vision</h3>
+            <h5 class="left freight">User Experience Design</h5>
+            <p>A cloud storage application with administrative feature that help users create, connect, and collaborate in real time.</p>
+            <div class="view-casestudy">
+              <a href="project.html" class="button" id="button-view-cs">VIEW CASE STUDY</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="desktop-nav">
-        <ul>
-          <li><a class="active" href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="https://drive.google.com/file/d/1v349ufAJdmR_fLsZR1YRuORnOvLvcJYR/view?usp=sharingg" target="_blank">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <header>
-        <a href="index.html">
-          <img src="images/my-logo.png" alt="images/my-logo.png" class="my-logo"></a>
-      </header>
-    </nav>
-        <div class="main-container">
-          <div class="big-margin smaller-margin">
-            <div class="intro-with-pic">
-              <div class="homepage-intro">
-                <h2 class="hello"> Hi, I'm Alana!</h2>
-                <ul>
-                  <li><h3>A Product Designer</h3></li>
-                  <li><h3>based in San Francisco.</h3></li>
-                </ul>
-                <p class="intro">Driven by research and human connection, I solve problems by addressing user needs and designing for a better future.</p>
-              </div>
-              <div class="profile-pic">
-                <img src="images/profile-picture.png" alt="" class="prof-pic">
-              </div>
-            </div>
-          </div>
-          <section>
-            <div class="vision-case-container">
-              <div class="big-margin smaller-margin">
-                <div class="vision-case-image">
-                  <img src="images/desktop-proto.png" alt="images/desktop-proto.png" id="home-proto" class="center">
-                </div>
-                <div class="about-vision-casestudy">
-                    <h3 class="left project enlarge">Vision</h3>
-                    <h5 class="left freight">User Experience Design</h5>
-                      <p>A cloud storage application with administrative feature that help users create, connect, and collaborate in real time.</p>
-                  <div class="view-casestudy">
-                    <a href="project.html" class="button" id="button-view-cs">VIEW CASE STUDY</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <footer>
-          <h3 class="enlarge">Let's Connect!</h3>
-          <div class="footer-icons">
-            <a href="https://www.linkedin.com/in/alana-macedo-b3347015b/" target="_blank">
-              <img src="images/linkedin.png" alt="images/linked-in-icon.png" class="social-media"></a>
-            <a href="https://github.com/alanamacedo" target="_blank">
-              <img src="images/github.png" alt="images/facebook-icon.png" class="social-media fb"></a>
-            <a href="contact.html">
-            <img src="images/mail.png" alt="images/email.png" class="social-media"></a>
-          </div>
-          <h6 class="copyright">© Alana Macedo 2020</h6>
-        </footer>
-  </body>
+    </section>
+  </div>
+  <footer>
+    <h3 class="enlarge">Let's Connect!</h3>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/alana-macedo-b3347015b/" target="_blank">
+        <img src="images/linkedin.png" alt="images/linked-in-icon.png" class="social-media"></a>
+      <a href="https://github.com/alanamacedo" target="_blank">
+        <img src="images/github.png" alt="images/facebook-icon.png" class="social-media fb"></a>
+      <a href="contact.html">
+        <img src="images/mail.png" alt="images/email.png" class="social-media"></a>
+    </div>
+    <h6 class="copyright">© Alana Macedo 2020</h6>
+  </footer>
+</body>
+
 </html>
