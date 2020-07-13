@@ -160,7 +160,7 @@ html {
   transition: color 0.4s ease;
 }
 
-/* MOBILE PAGE MARGING */
+/* Mobile Margins */
 
 .smaller-margin, .margin {
   margin-left: 20px;
@@ -168,6 +168,7 @@ html {
 }
 
 
+/* Links */
 a {
   color: #431313;
   font-family: freight-display-pro, serif;
@@ -182,6 +183,14 @@ a {
   color: #9B3030;
 }
 
+/* Mobile spacing margins */
+.add-margin-top {
+  margin-top: 36px;
+}
+
+.add-margin-below {
+  margin-bottom: 36px;
+}
 
 .break {
   border-bottom: 4px solid #393939;
@@ -265,6 +274,7 @@ body {
   width: 100%;
 }
 
+/* Competitor Icons */
 .competitors {
   padding-bottom: 36px;
 }
@@ -296,6 +306,7 @@ body {
   width: 100%;
 }
 
+/* Copyright at bottom of each page */
 .copyright {
   text-align: center;
 }
@@ -392,7 +403,7 @@ h6 {
 
 /* Homepage Prototype image */
 #home-proto {
-  width: 100vw;
+  width: 100%;
 }
 
 /* Line under roles, deliverable, tools*/
@@ -448,6 +459,40 @@ li {
   list-style: none;
 }
 
+/* User Personas styling */
+li h5{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 0;
+  color: #393939;
+  text-decoration: underline;
+}
+li b {
+  color: #393939;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+li.demo {
+  font-size: 1.3rem;
+}
+
+li.bullet {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.2rem;
+  margin-left: 1.25rem;
+}
+
+li.alex-padding {
+  padding-bottom: 70px;
+}
+
+li.jess-padding {
+  padding-bottom: 35px;
+}
+
 /* Affects h3 on index.html */
 li > h3 {
   /*font-size: 1.6em;*/
@@ -465,16 +510,6 @@ li > h3 {
 .main-logo {
   width:40vw;
 }
-
-
-.add-margin-top {
-  margin-top: 36px;
-}
-
-.add-margin-below {
-  margin-bottom: 36px;
-}
-
 
 .mobile-below {
   margin-bottom: 36px;
@@ -553,38 +588,6 @@ p {
   color: #393939;
   line-height: 150%;
 }
-li h5{
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding-top: 0;
-  color: #393939;
-  text-decoration: underline;
-}
-li b {
-  color: #393939;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-li.demo {
-  font-size: 1.3rem;
-}
-
-li.bullet {
-  list-style-type: disc;
-  list-style-position: outside;
-  font-size: 1.2rem;
-  margin-left: 1.25rem;
-}
-
-li.alex-padding {
-  padding-bottom: 70px;
-}
-
-li.jess-padding {
-  padding-bottom: 35px;
-}
 
 /* Hides Profile pic in mobile on About page */
 .profile-pic {
@@ -606,10 +609,6 @@ section {
   padding-bottom: 36px;
 }
 
-/* Shrinks large images */
-.shrink {
-  width: 40%;
-}
 
 /* In Contact Page */
 .sub-text {
@@ -696,24 +695,24 @@ ul p {
   width: 100%;
 }
 
+/* User Stories */
 .user-stories {
   padding-bottom: 72px;
 }
+
 /* Changes color and enlages font */
 .enlarge {
   color: #9B3030;
   font-weight: 700;
 }
 
-/* ABOUT PAGE */
+/* ABOUT PAGE ONLY*/
 .about-top {
   padding-top: 100px;
 }
 
 @media screen and (min-width: 575px) {
-  /* MAIN CONTAINER */
-
-  /* MOBILE PAGE MARGIN */
+  /* MOBILE PAGE MARGIN AND MAIN CONTAINER */
 
   .smaller-margin, .margin {
     margin-left: 50px;
@@ -732,12 +731,7 @@ ul p {
     width: 40vw;
   }
 
-  .shrink {
-    width: 50%;
-  }
-
   /* BOX -1, IPAD */
-
 
   .project-name {
     display: flex;
@@ -746,27 +740,25 @@ ul p {
     width: 60vw;
   }
 
-
   /* RESEARCH AND DISCOVERY */
   .chart {
     display: inline-block;
     padding-left: 10px;
     width: 50%;
-
   }
 
   .graph {
     display: inline-block;
-    width: 40%;
     padding-right: 10px;
+    width: 40%;
   }
 
   .research {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 72px;
     padding-bottom: 72px;
+    padding-top: 72px;
   }
 
   /* INFORMATION ARCHITECTURE*/
@@ -776,6 +768,10 @@ ul p {
   }
 
   /* BRANDING AND IDENTITY*/
+  .fonts-used {
+    width: 100%;
+  }
+
   .map, .list, .logo-sketches, .text-logos {
     width: 80%;
   }
@@ -784,25 +780,16 @@ ul p {
     width: 80%;
   }
 
-  .fonts-used {
-    width: 100%;
-  }
-
   /*VISUAL DESIGN*/
-  .first-hifi {
-    width: 80%;
-  }
-
   .mob-1, .mob-2{
     width: 80%;
   }
 
-  .ut-1, .ut-2 {
-    text-align: center;
-  }
-
   .ut {
     width: 80%;
+  }
+  .ut-1, .ut-2 {
+    text-align: center;
   }
 
   /* HOMEPAGE */
@@ -815,6 +802,7 @@ ul p {
   .hello {
     font-size: 1.8rem;
   }
+
   .vision-index-style {
     color: #9B3030;
     font-weight: 700;
@@ -828,8 +816,8 @@ ul p {
 
   .sub-text {
     font-size: 1.2rem;
-    text-align: left;
     max-width: 300px;
+    text-align: left;
   }
 
   .end {
@@ -840,11 +828,10 @@ ul p {
   .about-top {
     padding-top: 100px;
   }
-
 }
 
 @media screen and (min-width: 768px) {
-
+  /* MARGINS AND MAIN CONTAINER */
   .add-margin-top {
     margin-top: 36px;
   }
@@ -853,18 +840,6 @@ ul p {
     margin-bottom: 36px;
   }
 
-  .smaller-margin {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-
-  .social-media {
-    padding:10px;
-    height: 70px;
-    width: 70px;
-  }
-
-  /* MAIN CONTAINER */
   h1 {
     font-size: 2.5rem;
   }
@@ -881,6 +856,16 @@ ul p {
     font-size: 1.125rem;
   }
 
+  .smaller-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .social-media {
+    height: 70px;
+    padding:10px;
+    width: 70px;
+  }
 
   /* ROLES, DELIVERABLES, TOOLS */
   .accomplished {
@@ -902,8 +887,8 @@ ul p {
   }
 
   .how {
-    padding-top: 0;
     font-size: 2.3rem;
+    padding-top: 0;
   }
 
   .prob-sol-header {
@@ -917,31 +902,22 @@ ul p {
   }
 
   .tools {
-        border-right: none;
+    border-right: none;
   }
 
   /* RESEARCH AND DISCOVERY */
-
   .chart, .graph {
     display: inline-block;
-    width: 50%;
     padding: 10px;
+    width: 50%;
   }
 
-  .personas {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .persona {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
   h4.person-name {
     font-size: 2rem;
+  }
+
+  .laura, .jess, .alex {
+    width: 33%;
   }
 
   li h5 {
@@ -953,15 +929,25 @@ ul p {
     font-size: 1.1rem;
   }
 
-  li.demo {
-    font-size: 1.1rem;
-  }
   li.bullet {
     font-size: 1rem;
   }
 
-  .laura, .jess, .alex {
-    width: 33%;
+  li.demo {
+    font-size: 1.1rem;
+  }
+
+  .persona {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .personas {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
+    padding-top: 72px;
+    width: 100%;
   }
 
   /* HOMEPAGE */
@@ -970,13 +956,13 @@ ul p {
     margin-left: 10px;
   }
 
-  #home-proto {
-    width: 80vw;
+  .end {
+    padding-bottom: 0px;
   }
 
   .hello {
-    padding-top: 0;
     font-size: 2.2rem;
+    padding-top: 0;
   }
 
   .homepage-intro {
@@ -984,16 +970,15 @@ ul p {
     width: 60%;
   }
 
-  .intro-with-pic {
-    display: flex;
-    padding-top: 200px;
-    padding-bottom: 72px;
-    width: 100%;
+  #home-proto {
+    width: 80vw;
   }
 
-  .vision-index-style {
-    color: #9B3030;
-    font-weight: 700;
+  .intro-with-pic {
+    display: flex;
+    padding-bottom: 72px;
+    padding-top: 200px;
+    width: 100%;
   }
 
   .profile-pic {
@@ -1013,8 +998,9 @@ ul p {
     max-width: 300px;
   }
 
-  .end {
-    padding-bottom: 0px;
+  .vision-index-style {
+    color: #9B3030;
+    font-weight: 700;
   }
 
   /* ABOUT PAGE */
@@ -1030,11 +1016,6 @@ ul p {
     margin-top: 0px;
   }
 
-  #proto-button {
-    font-family: 'Nunito', sans-serif;
-    margin-top: 0;
-  }
-
   .margin {
     margin-left: 225px;
     margin-right: 225px;
@@ -1047,6 +1028,11 @@ ul p {
   .nav {
     margin-left: 60px;
     margin-right: 60px;
+  }
+
+  #proto-button {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0;
   }
 
 /* DESKTOP NAV, HAMBURGER DISAPPEAR */
@@ -1101,10 +1087,6 @@ ul p {
     font-size: 1.75rem;
   }
 
-  .shrink {
-    width: 60%;
-  }
-
   /* ROLES, DELIVERABLES, TOOLS */
   .accomplished {
     display: flex;
@@ -1142,8 +1124,8 @@ ul p {
   /* RESEARCH AND DISCOVERY */
   .chart, .graph {
     display: inline-block;
-    width: 50%;
     padding: 20px;
+    width: 50%;
   }
 
   #competitors {
@@ -1152,6 +1134,12 @@ ul p {
 
   h4.person-name {
     font-size: 1.6rem;
+  }
+
+  .laura, .alex, .jess {
+    display: inline-block;
+    padding: 5px;
+    width: 33%;
   }
 
   li h5 {
@@ -1170,11 +1158,6 @@ ul p {
     font-size: 0.8rem;
   }
 
-  .laura, .alex, .jess {
-    display: inline-block;
-    padding: 5px;
-    width: 33%;
-  }
   .persona {
     margin-bottom: 36px;
   }
@@ -1198,27 +1181,23 @@ ul p {
   .buttons-side-by-side, .wireframes {
     display: flex;
     justify-content: center;
-    padding-top: 0px;
     padding-bottom: 0px;
+    padding-top: 0px;
     width: 100%;
-  }
-
-  .wireframes{
-    padding-bottom: 0;
   }
 
   .flows {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 0px;
     padding-bottom: 0px;
+    padding-top: 0px;
   }
 
   .flows-1, .flows-2 {
     display: inline-block;
-    width: 100%;
     height: 100%;
+    width: 100%;
   }
 
   .lofi, .wire-sketch {
@@ -1238,22 +1217,13 @@ ul p {
     display: inline-block;
   }
 
+  .wireframes{
+    padding-bottom: 0;
+  }
+
   /* BRANDING AND IDENTITY */
   .fonts-used {
     width: 80%;
-  }
-
-  .map-and-list, .style-guide-logos {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .map, .list {
-    display: inline-block;
-    padding: 10px;
   }
 
   .list {
@@ -1270,9 +1240,23 @@ ul p {
     width: 30%;
   }
 
+  .map-and-list, .style-guide-logos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .map, .list {
+    display: inline-block;
+    padding: 10px;
+  }
+
   .map {
     width: 80%;
   }
+
   .palette {
     width: 80%;
   }
@@ -1282,15 +1266,23 @@ ul p {
   }
 
   /* VISUAL DESIGN */
+  #bottom-case {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .end {
+    padding-bottom: 0px;
+  }
 
   .first-hifi {
     width: 80%;
   }
 
   .final-mobile, .hi-fi-testing {
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
   .mob-1, .mob-2{
@@ -1303,15 +1295,6 @@ ul p {
     padding: 10px;
     width: 50%;
     text-align: center;
-  }
-
-  .end {
-    padding-bottom: 0px;
-  }
-
-  #bottom-case {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   /* ABOUT PAGE */
@@ -1337,11 +1320,12 @@ ul p {
   }
 
   .sub-text {
-    text-align: left;
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
+    text-align: left;
   }
+
   textarea {
     border-color: inherit;
     height: 100px;
@@ -1354,8 +1338,6 @@ ul p {
   }
 
   /* HOMEPAGE */
-
-
   #button-view-cs {
     margin-left: 0;
   }
@@ -1363,15 +1345,14 @@ ul p {
 
 @media screen and (min-width: 1024px) {
   /* BOX -1, DESKTOP */
-
   .box-1 {
     background-color: #FFFBF6;
   }
 
   .desktop-proto {
+    max-width: 450px;
     padding-top: 200px;
     width: 50vw;
-    max-width: 450px;
   }
 
   .font {
@@ -1380,17 +1361,18 @@ ul p {
 
   .logo-text-button {
     display: inline-block;
+    padding-top: 175px;
     width: 45%;
     vertical-align: top;
-    padding-top: 175px;
+    width: 45%;
   }
 
   .project-name {
     display: flex;
     margin-left: 0px;
+    max-width: 300px;
     padding-top: 0px;
     width: 30vw;
-    max-width: 300px;
   }
 
   .proto-button {
@@ -1420,7 +1402,6 @@ ul p {
     padding-top: 0px;
   }
 
-
   /* ROLES, DELIVERABLES, TOOLS */
   .accomplished {
     display: flex;
@@ -1440,7 +1421,6 @@ ul p {
     width: 33%;
   }
 
-
   .prob-sol-header {
     padding: 0;
     width: 50%;
@@ -1455,13 +1435,7 @@ ul p {
     border-right: none;
   }
 
-  #home-proto {
-    margin: 0;
-    padding-bottom: 36px;
-    padding-top: 0px;
-    width: 100%;
-  }
-
+  /* RESEARCH AND DISCOVERY */
   .chart, .graph {
     display: inline-block;
     width: 50%;
@@ -1475,6 +1449,14 @@ ul p {
 
   li.jess-padding {
     padding-bottom: 35px;
+  }
+
+  /* HOMEPAGE */
+  #home-proto {
+    margin: 0;
+    padding-bottom: 36px;
+    padding-top: 0px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1127px) {
@@ -1493,8 +1475,8 @@ ul p {
   }
 
   .hello {
-    padding-top: 0;
     font-size: 2.4rem;
+    padding-top: 0;
   }
 
   .homepage-intro {
@@ -1503,15 +1485,15 @@ ul p {
   }
 
   #home-proto {
-    width: 100%;
     margin-right: 0;
     vertical-align: top;
+    width: 100%;
   }
 
   .intro-with-pic {
     display: flex;
-    padding-top: 200px;
     padding-bottom: 72px;
+    padding-top: 200px;
     width: 100%;
   }
 
@@ -1521,27 +1503,21 @@ ul p {
     width: 20%;
   }
 
+  .vision-case-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    width: 100%;
+  }
 
   .vision-case-image {
     float: right;
     margin-right: 0;
   }
 
-  .vision-case-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-  }
-
   .vision-index-style {
     color: #9B3030;
     font-weight: 700;
-  }
-
-  #button-view-cs {
-    margin-top: 0;
-    margin-left: 0;
   }
 
   .project {
@@ -1550,16 +1526,17 @@ ul p {
 }
 
 @media screen and (min-width: 1200px) {
+  /* MAIN CONTAINER */
   body {
     margin: 0 auto;
     max-width:1400px;
   }
+
   /* NAV */
   nav {
     max-height: 106px;
     max-width:1400px;
   }
-
 
   /* BOX -1, DESKTOP */
   .font {
@@ -1586,25 +1563,24 @@ ul p {
     border-right: none;
   }
 
+  /* RESEARCH AND DISCOVERY */
   li.alex-padding, li.jess-padding {
     padding-bottom: 35px;
   }
 
   /* HOMEPAGE */
-  .profile-pic {
-    padding-left: 130px;
-  }
-
   #button-view-cs {
     margin-left: 0;
     margin-top: 0;
   }
 
-
   #home-proto {
-    padding-top: 0;
     padding-bottom: 0;
+    padding-top: 0;
+  }
 
+  .profile-pic {
+    padding-left: 130px;
   }
 
   /* ABOUT PAGE */
@@ -1619,29 +1595,31 @@ ul p {
 }
 
 @media screen and (min-width: 1300px) {
-
-
-  #button-view-cs {
-    margin-left: 0;
+  /* BOX -1, DESKTOP */
+  .desktop-proto {
+    max-width: 590px;
   }
 
   .logo-text-button {
     padding-top: 250px;
   }
-  .desktop-proto {
-    max-width: 590px;
-  }
+
   .project-name {
     padding-bottom: 36px;
   }
 
+  /* ABOUT PAGE */
+  #button-view-cs {
+    margin-left: 0;
+  }
+
   #home-proto {
     padding-top: 0;
-
   }
 }
 
 @media screen and (min-width: 1375px) {
+  /* MAIN CONTAINER */
   .big-margin {
     margin-left: 225px;
     margin-right: 225px;
@@ -1649,21 +1627,26 @@ ul p {
 }
 
 @media screen and (min-width: 1400px) {
-
+  /* BOX -1, DESKTOP */
   .font {
     padding-bottom: 45px;
   }
+
+  .desktop-proto {
+    max-width: 590px;
+  }
+
   .proto-button {
     margin-bottom: 72px;
   }
+
+  /* ABOUT PAGE */
   #home-proto {
     padding-top: 0;
     max-width: 490px;
   }
-  .desktop-proto {
-    max-width: 590px;
-  }
 }
+
 @media screen and (min-width: 1500px) {
   /* NAV */
   .desktop-nav {
