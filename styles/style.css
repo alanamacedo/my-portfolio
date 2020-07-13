@@ -321,10 +321,6 @@ body {
   width: 100%;
 }
 
-/* Contact form display block *
-div.block {
-  display: block;
-}
 
 /* Mindmap, listmaking, color palette, sketches, flows, preference tests, type logo, wireframes*/
 .eighty-vw{
@@ -1370,6 +1366,7 @@ ul p {
   .textbox {
     height: 50px;
     width: 500px;
+    margin-bottom: 20px;
   }
 
   /* HOMEPAGE */
