@@ -160,7 +160,12 @@ html {
   transition: color 0.4s ease;
 }
 
+/* MOBILE PAGE MARGING */
 
+.smaller-margin, .margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 
 a {
@@ -172,9 +177,11 @@ a {
   text-decoration: none;
 }
 
+/* changes color for active page of menu link */
 .active {
   color: #9B3030;
 }
+
 
 .break {
   border-bottom: 4px solid #393939;
@@ -222,6 +229,7 @@ body {
   background-color: #FFFEFC;
 }
 
+/* Project Box-1 */
 .box-1 {
   width: 100%;
 }
@@ -233,19 +241,22 @@ body {
   padding-top: 36px;
 }
 
-/* centering images */
+/* Centering images */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 36px;
-  padding-top: 36px;
 }
 
+/* Changes weight/color to sub-header in project */
 .change-font {
-  font-family: freight-display-pro, serif;
   color: #431313;
+  font-family: freight-display-pro, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 18px;
 }
+
 /* Competitor and social-media Icons */
  .footer-icons{
   display: flex;
@@ -253,6 +264,7 @@ body {
   padding-right: 5px;
   width: 100%;
 }
+
 .competitors {
   padding-bottom: 36px;
 }
@@ -261,11 +273,10 @@ body {
   width: 60vw;
 }
 
-
 /* Contact form */
 .contact-section {
-  padding-top: 36px;
   margin-bottom: 36px;
+  padding-top: 36px;
 }
 
 .contact-form {
@@ -279,18 +290,17 @@ body {
 }
 
 .contact-info {
-  width: 100%;
   display: block;
   justify-content: center;
   text-align: left;
+  width: 100%;
 }
-
 
 .copyright {
   text-align: center;
 }
 
-/* desktop images */
+/* Desktop size images */
 .desktop {
   width: 90%;
 }
@@ -299,22 +309,21 @@ body {
   width: 100%;
 }
 
-/* mindmap, listmaking, color palette, sketches, flows, preference tests, type logo, wireframes*/
+/* Mindmap, listmaking, color palette, sketches, flows, preference tests, type logo, wireframes*/
 .eighty-vw{
   width: 80vw;
 }
 
-
-/* social media links */
+/* Social media links */
 footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Contact Page form */
 form {
   display: block;
-
 }
 
 /* changes index h5 to freight family */
@@ -325,16 +334,16 @@ form {
   line-height: 1.4rem;
 }
 
-/* hi, i'm alana on index.html */
+/* Hi, i'm alana on index.html */
 .hello {
   font-size: 1.8rem;
   padding-bottom: 16px;
+  padding-left: 16px;
   padding-top: 100px;
   text-align: left;
-  padding-left: 16px;
 }
 
-/* headers */
+/* Headers */
 h1, h2, h3, h4, h5, h6 {
   font-family: freight-display-pro, serif;
   font-style: normal;
@@ -359,7 +368,7 @@ h2 {
 h3 {
   color: #431313;
   font-size: 1.375rem;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 h4 {
@@ -381,11 +390,12 @@ h6 {
   font-weight: 400;
 }
 
+/* Homepage Prototype image */
 #home-proto {
   width: 100vw;
 }
 
-/* line */
+/* Line under roles, deliverable, tools*/
 hr {
   border-bottom: 4px solid #393939;
   margin-left: auto;
@@ -393,7 +403,7 @@ hr {
   width: 100px;
 }
 
-/* styles intro text */
+/* Styles intro text on Homepage*/
 .intro {
   color: #431313;
   font-family: freight-display-pro, serif;
@@ -403,38 +413,42 @@ hr {
   text-align: left;
 }
 
+/* Changes aha to italic on About page */
 .italic {
   font-style: italic;
   line-height: 38px;
 }
-/* text field contact page */
+
+/* Text field contact page */
 input {
   height: 30px;
   width: 300px;
  }
 
+/* Overides center */
 .left {
   padding: 10px;
   text-align: left;
 }
 
+/* Lable in Contact form */
 label {
   display: inline-block;
 }
 
+/* Large image size */
 .large-image {
   width: 80%;
 }
 
+
 li {
-  list-style: none;
   font-size: 1rem;
   line-height: 35px;
-
-
+  list-style: none;
 }
 
-/* affects h3 on index.html */
+/* Affects h3 on index.html */
 li > h3 {
   /*font-size: 1.6em;*/
   font-weight: 400;
@@ -443,24 +457,35 @@ li > h3 {
 }
 
 
-/* vision logo images */
+/* Vision logo images in Branding */
 .logos-row {
   max-width: 90%
 }
-
-/* side margins for all pages */
-
 
 .main-logo {
   width:40vw;
 }
 
-/* mobile image */
+
+.add-margin-top {
+  margin-top: 36px;
+}
+
+.add-margin-below {
+  margin-bottom: 36px;
+}
+
+
+.mobile-below {
+  margin-bottom: 36px;
+  }
+}
+/* Mobile proto image */
 .mobile-proto {
   width: 70%;
 }
 
-/* navigation bar */
+/* Navigation Bar */
 .my-logo {
   height: 80px;
   width: 80px;
@@ -475,7 +500,7 @@ nav {
   z-index: 1;
 }
 
-/* contact form text styling */
+/* Contact form text styling */
 .name, .email, .message {
   color: #393939;
   font-family: 'Nunito Sans', sans-serif;
@@ -485,7 +510,7 @@ nav {
 
 }
 
-/* paragraph text */
+/* Paragraph text */
 p {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
@@ -495,11 +520,78 @@ p {
   padding-right: 10px;
 }
 
+
+/* User Personas */
+.persona {
+  background-color: #fff;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 150%;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  margin-bottom: 36px;
+}
+
+.persona img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  width: 75%;
+}
+
+.persona ul {
+  text-align: left;
+}
+
+.person-name {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #393939;
+  line-height: 150%;
+}
+li h5{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 0;
+  color: #393939;
+  text-decoration: underline;
+}
+li b {
+  color: #393939;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+li.demo {
+  font-size: 1.3rem;
+}
+
+li.bullet {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.2rem;
+  margin-left: 1.25rem;
+}
+
+li.alex-padding {
+  padding-bottom: 70px;
+}
+
+li.jess-padding {
+  padding-bottom: 35px;
+}
+
+/* Hides Profile pic in mobile on About page */
 .profile-pic {
   display: none;
 }
 
-/* vision title logo */
+/* Vision title logo */
 .project-name {
   display: block;
   margin-left: auto;
@@ -509,46 +601,39 @@ p {
   width: 80vw;
 }
 
-/* Image */
-.salvador {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 36px;
-  width: 80vw;
-}
-
 section {
   padding-top: 36px;
   padding-bottom: 36px;
 }
 
+/* Shrinks large images */
 .shrink {
   width: 40%;
 }
 
-/* in contact page */
+/* In Contact Page */
 .sub-text {
   font-size: 1.125rem;
-  text-align: left;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 36px;
   max-width: 300px;
   padding: 0px;
+  text-align: left;
 }
 
-/* social media icon padding */
+/* Social media icon padding */
 .social-media {
-  padding:10px;
   height: 50px;
+  padding:10px;
   width: 50px;
 }
-/* user stories table */
+
+/* User stories table */
 table {
+  border-collapse: collapse;
   display: table;
   margin: 0 auto;
-  border-collapse: collapse;
   width: 80%;
 }
 
@@ -557,40 +642,41 @@ table tr:nth-child(odd) {
 }
 
 th {
-  display: table-cell;
   background-color: #B8B8B8;
   color: white;
+  display: table-cell;
   font-weight: bold;
   text-align: left;
  }
 
  th, td {
-  padding: .5rem;
   border: 0px solid #ccc;
+  padding: .5rem;
 }
 
 tr {
-  font-family: proxima nova;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-/* message field */
+
+/* Message field on Contact Form*/
 textarea {
   border-color: inherit;
   height: 100px;
   width: 300px;
  }
 
-/* hr padding */
+/* Hr padding */
  .top {
    padding-top: 36px;
  }
 
 /* unordered list style */
 ul {
-  list-style: none;
-  font-family: proxima nova;
+  font-family: 'Nunito-Sans', sans-serif;
   font-size: 1.33em;
   line-height: 1.6em;
+  list-style: none;
   padding-bottom: 36px;
   padding-right: 16px;
   padding-left: 16px;
@@ -603,12 +689,17 @@ ul p {
    line-height: 2em;
 }
 
+/* Controls container on About page */
 .vision-case-container {
   background-color: #FFFBF6;
   padding-bottom: 20px;
   width: 100%;
 }
 
+.user-stories {
+  padding-bottom: 72px;
+}
+/* Changes color and enlages font */
 .enlarge {
   color: #9B3030;
   font-weight: 700;
@@ -621,6 +712,22 @@ ul p {
 
 @media screen and (min-width: 575px) {
   /* MAIN CONTAINER */
+
+  /* MOBILE PAGE MARGIN */
+
+  .smaller-margin, .margin {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .add-margin-top {
+    margin-top: 36px;
+  }
+
+  .add-margin-below {
+    margin-bottom: 36px;
+  }
+
   .eighty-vw {
     width: 40vw;
   }
@@ -635,7 +742,7 @@ ul p {
   .project-name {
     display: flex;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 110px;
     width: 60vw;
   }
 
@@ -643,12 +750,15 @@ ul p {
   /* RESEARCH AND DISCOVERY */
   .chart {
     display: inline-block;
+    padding-left: 10px;
     width: 50%;
+
   }
 
   .graph {
     display: inline-block;
     width: 40%;
+    padding-right: 10px;
   }
 
   .research {
@@ -657,32 +767,6 @@ ul p {
     justify-content: center;
     padding-top: 72px;
     padding-bottom: 72px;
-  }
-
-  .personas {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .laura {
-    display: inline-block;
-    padding: 10px;
-    width: 25%;
-  }
-
-  .jess {
-    display: inline-block;
-    padding: 10px;
-    width: 25%;
-  }
-
-  .alex {
-    display: inline-block;
-    padding: 10px;
-    width: 25%;
   }
 
   /* INFORMATION ARCHITECTURE*/
@@ -696,8 +780,12 @@ ul p {
     width: 80%;
   }
 
-  .palette, .fonts-used {
+  .palette {
     width: 80%;
+  }
+
+  .fonts-used {
+    width: 100%;
   }
 
   /*VISUAL DESIGN*/
@@ -745,7 +833,7 @@ ul p {
   }
 
   .end {
-    padding-bottom: 36px;
+    padding-bottom: 0px;
   }
 
   /* ABOUT PAGE */
@@ -757,7 +845,13 @@ ul p {
 
 @media screen and (min-width: 768px) {
 
+  .add-margin-top {
+    margin-top: 36px;
+  }
 
+  .add-margin-below {
+    margin-bottom: 36px;
+  }
 
   .smaller-margin {
     margin-left: 100px;
@@ -785,12 +879,6 @@ ul p {
 
   h4 {
     font-size: 1.125rem;
-  }
-
-
-  /* BOX-1*/
-  .logo-text-button {
-    padding-top: 150px;
   }
 
 
@@ -833,9 +921,43 @@ ul p {
   }
 
   /* RESEARCH AND DISCOVERY */
+
   .chart, .graph {
     display: inline-block;
     width: 50%;
+    padding: 10px;
+  }
+
+  .personas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .persona {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  h4.person-name {
+    font-size: 2rem;
+  }
+
+  li h5 {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+
+  li b {
+    font-size: 1.1rem;
+  }
+
+  li.demo {
+    font-size: 1.1rem;
+  }
+  li.bullet {
+    font-size: 1rem;
   }
 
   .laura, .jess, .alex {
@@ -892,7 +1014,7 @@ ul p {
   }
 
   .end {
-    padding-bottom: 72px;
+    padding-bottom: 0px;
   }
 
   /* ABOUT PAGE */
@@ -905,7 +1027,7 @@ ul p {
   /* DESKTOP MARGINS (NOT AFFECTING BACKGROUND) */
   .button {
     margin-bottom: 72px;
-    margin-top: 72px;
+    margin-top: 0px;
   }
 
   #proto-button {
@@ -918,6 +1040,9 @@ ul p {
     margin-right: 225px;
   }
 
+  .mobile-below {
+    margin-bottom: ;
+    }
 
   .nav {
     margin-left: 60px;
@@ -1018,32 +1143,54 @@ ul p {
   .chart, .graph {
     display: inline-block;
     width: 50%;
+    padding: 20px;
   }
 
   #competitors {
     width: 40vw;
   }
 
+  h4.person-name {
+    font-size: 1.6rem;
+  }
+
+  li h5 {
+    font-size: 0.8rem;
+    padding: 0;
+  }
+
+  li b {
+    font-size: 0.8rem;
+  }
+
+  li.demo {
+    font-size: 0.8rem;
+  }
+  li.bullet {
+    font-size: 0.8rem;
+  }
 
   .laura, .alex, .jess {
     display: inline-block;
-    padding: 10px;
-    width: 30%;
+    padding: 5px;
+    width: 33%;
   }
-
+  .persona {
+    margin-bottom: 36px;
+  }
   .personas {
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     width: 100%;
   }
 
   .research {
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     width: 100%;
   }
 
@@ -1051,17 +1198,21 @@ ul p {
   .buttons-side-by-side, .wireframes {
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     width: 100%;
+  }
+
+  .wireframes{
+    padding-bottom: 0;
   }
 
   .flows {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .flows-1, .flows-2 {
@@ -1070,21 +1221,13 @@ ul p {
     height: 100%;
   }
 
-  .flow-pad {
-    padding-bottom: 250px;
-  }
-
-  .flow-pad-2 {
-    padding-bottom: 90px;
-  }
-
   .lofi, .wire-sketch {
     display: inline-block;
     width: 40%;
   }
 
   .text-center {
-    text-align: center;
+    text-align: left;
   }
 
   .user-test {
@@ -1097,25 +1240,24 @@ ul p {
 
   /* BRANDING AND IDENTITY */
   .fonts-used {
-    width: 70%;
+    width: 80%;
   }
 
   .map-and-list, .style-guide-logos {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .map, .list {
     display: inline-block;
     padding: 10px;
-    width: 60%;
   }
 
   .list {
-    width: 40%;
+    width: 20%;
   }
 
   .logo-sketches {
@@ -1128,6 +1270,9 @@ ul p {
     width: 30%;
   }
 
+  .map {
+    width: 80%;
+  }
   .palette {
     width: 80%;
   }
@@ -1146,8 +1291,6 @@ ul p {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
   }
 
   .mob-1, .mob-2{
@@ -1163,10 +1306,10 @@ ul p {
   }
 
   .end {
-    padding-bottom: 72px;
+    padding-bottom: 0px;
   }
 
-  .bottom-case {
+  #bottom-case {
     margin-left: auto;
     margin-right: auto;
   }
@@ -1226,6 +1369,7 @@ ul p {
   }
 
   .desktop-proto {
+    padding-top: 200px;
     width: 50vw;
     max-width: 450px;
   }
@@ -1271,7 +1415,7 @@ ul p {
     padding-top: 175px;
   }
 
-  .proto-image .center {
+  .proto-image {
     padding-bottom: 0px;
     padding-top: 0px;
   }
@@ -1318,6 +1462,20 @@ ul p {
     width: 100%;
   }
 
+  .chart, .graph {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    padding: 20px;
+  }
+
+  li.alex-padding {
+    padding-bottom: 35px;
+  }
+
+  li.jess-padding {
+    padding-bottom: 35px;
+  }
 }
 @media screen and (min-width: 1127px) {
   /* HOMEPAGE */
@@ -1426,6 +1584,10 @@ ul p {
 
   .tools {
     border-right: none;
+  }
+
+  li.alex-padding, li.jess-padding {
+    padding-bottom: 35px;
   }
 
   /* HOMEPAGE */
