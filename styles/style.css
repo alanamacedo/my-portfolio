@@ -284,6 +284,7 @@ body {
 }
 
 /* Contact form */
+
 .contact-section {
   margin-bottom: 36px;
   padding-top: 36px;
@@ -300,7 +301,7 @@ body {
 }
 
 .contact-info {
-  display: inline-block;
+  display: block;
   justify-content: center;
   text-align: left;
   width: 100%;
@@ -318,6 +319,11 @@ body {
 
 .desktop-proto {
   width: 100%;
+}
+
+/* Contact form display block *
+div.block {
+  display: block;
 }
 
 /* Mindmap, listmaking, color palette, sketches, flows, preference tests, type logo, wireframes*/
@@ -424,11 +430,6 @@ hr {
   text-align: left;
 }
 
-/* Changes aha to italic on About page */
-.italic {
-  font-style: italic;
-  line-height: 38px;
-}
 
 /* Text field contact page */
 input {
@@ -453,6 +454,17 @@ li {
   font-size: 1rem;
   line-height: 35px;
   list-style: none;
+}
+
+/*  About Page changes aha to italic on About page */
+h2.italic {
+  font-family: freight-display-pro, serif;
+  font-size: 1.625rem;
+  font-style: italic;
+  line-height: 38px;
+  padding-bottom: 36px;
+  padding-top: 36px;
+  text-align: center;
 }
 
 /* User Personas styling */
@@ -535,8 +547,7 @@ nav {
 .name, .email, .message {
   color: #393939;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: normal;
-  display: flex;
+  display: flex;;
   justify-content: center;
 
 }
@@ -844,6 +855,7 @@ ul p {
     font-size: 2rem;
   }
 
+
   h3 {
     font-size: 1.5rem;
   }
@@ -1002,6 +1014,10 @@ ul p {
   /* ABOUT PAGE */
   .about-top {
     padding-top: 150px;
+  }
+
+  h2.italic {
+    font-size: 2rem;
   }
 }
 
@@ -1297,6 +1313,11 @@ ul p {
 
   .intro {
     font-size: 1.2rem;
+  }
+
+  h2.italic {
+    font-size: 2.25rem;
+    font-style: italic;
   }
 
   /* CONTACT PAGE */
