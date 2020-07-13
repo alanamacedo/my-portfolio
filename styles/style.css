@@ -300,7 +300,7 @@ body {
 }
 
 .contact-info {
-  display: block;
+  display: inline-block;
   justify-content: center;
   text-align: left;
   width: 100%;
@@ -442,10 +442,6 @@ input {
   text-align: left;
 }
 
-/* Lable in Contact form */
-label {
-  display: inline-block;
-}
 
 /* Large image size */
 .large-image {
