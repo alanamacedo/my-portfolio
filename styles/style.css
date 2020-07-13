@@ -509,6 +509,17 @@ li > h3 {
   padding: 0px;
 }
 
+li.how {
+  color: #9B3030;
+  font-family: freight-display-pro, serif;
+  font-weight: 700;
+  font-size: 1.625rem;
+  font-style: normal;
+  padding-bottom: 36px;
+  padding-top: 36px;
+  text-align: center;
+  padding-top: 0;
+}
 
 /* Vision logo images in Branding */
 .logos-row {
@@ -894,8 +905,15 @@ ul p {
     width: 33%;
   }
 
-  .how {
+  li.how {
+    color: #9B3030;
+    font-family: freight-display-pro, serif;
+    font-weight: 700;
     font-size: 2.3rem;
+    font-style: normal;
+    padding-bottom: 36px;
+    padding-top: 36px;
+    text-align: center;
     padding-top: 0;
   }
 
