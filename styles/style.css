@@ -530,10 +530,7 @@ li.how {
   margin-bottom: 36px;
   }
 }
-/* Mobile proto image */
-.mobile-proto {
-  width: 70%;
-}
+
 
 /* Navigation Bar */
 .my-logo {
@@ -725,6 +722,10 @@ ul p {
   padding-top: 100px;
 }
 
+.mobile-proto {
+  width: 80%;
+}
+
 @media screen and (min-width: 575px) {
   /* MOBILE PAGE MARGIN AND MAIN CONTAINER */
 
@@ -795,9 +796,8 @@ ul p {
   }
 
   /*VISUAL DESIGN*/
-  .mob-1, .mob-2{
-    width: 80%;
-  }
+
+
 
   .ut {
     width: 80%;
